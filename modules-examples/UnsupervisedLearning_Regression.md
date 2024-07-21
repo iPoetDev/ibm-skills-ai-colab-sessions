@@ -288,7 +288,7 @@ mlrMetrics = model_metrics(mlRegressor,
 > - Used when a simple or multiple linear regressions does not fit the data point accurately
 > - Following formula is used in the backend to generate polynomial linear regression:
 
-<center><pre> y = W<sub>0</sub> + W<sub>1</sub>X<sub>1</sub> + W<sub>2</sub>X<sup>2</sup><sub>2</sub> + .... + W<sub>n</sub> * X<sup>n</sup><sub>n</sub></center></pre>
+<center><pre style="font-size:18px"> y = W<sub>0</sub> + W<sub>1</sub>X<sub>1</sub> + W<sub>2</sub>X<sup>2</sup><sub>2</sub> + .... + W<sub>n</sub> * X<sup>n</sup><sub>n</sub></center></pre>
 
 > - Exponents of independent variables are used, algorithm is however non-linear becauses of linear combination of coefficients.
 
