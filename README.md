@@ -1,3 +1,4 @@
+![BLOG LinkedInProgramme of ArtificialIntelligence](./assets/BLOG_LinkedInProgramme-of-ArtificialIntelligence.png "Banner - BLOG - LinkedIn: Programme of ArtificialIntelligence")
 
 # Programme for Artifical Intelligence 2024 | IBM SkillsBuild
 
