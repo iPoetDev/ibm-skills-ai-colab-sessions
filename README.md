@@ -6,7 +6,7 @@
 
 ## Learning Journey 
 
-I wrote a blog on LinkedIn outline the skills and Credly accredited badges outlining the accomplishments of the coursework. Below is the top level descriptions from IBM SkillsBuild courseware modules' outlines, hereto replicated in fair use for in educational use, to provide further context to these skills and for portfolio purposes of this repository.
+I wrote a blog on LinkedIn outline the skills and [Credly accredited badges](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/tree/main#credly) outlining the accomplishments of the coursework. Below is the top level descriptions from IBM SkillsBuild courseware modules' outlines, hereto replicated in fair use for in educational use, to provide further context to these skills and for portfolio purposes of this repository.
 
 - Access to is granted by invitation via IBM's educational partners.
 - Visit [SkillsBuild: https://skillsbuild.org/](https://skillsbuild.org/ )
