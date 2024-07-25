@@ -1,4 +1,4 @@
-# Setup 
+# Setup
 
 ## Setup Local Notebook Workspace
 
@@ -6,7 +6,7 @@
 2. Create, Activate and Se;ect Virtual Environment
 3. Install `ipukernel`
 4. Create new kernel
-5. Start Juypter 
+5. Start Juypter
 6. Select Kernel for project
    6.1 Create/Import a (New) Juypter Notebook
    6.2 Chooe your Notebook's Kernel
@@ -16,11 +16,11 @@
 
 ### Installation Flow
 
-#### 1. Install Juypter, Notebook, Volia 
+#### 1. Install Juypter, Notebook, Volia
 
 - Use `pip install` as not using conda or mamba package management, on Windows, VSCode
 - Use Brew for WSL, Linux, macOS to install
-- Use `venv` per project environments over *user* enviornments (`--user`) and *system* level environments for packages.
+- Use `venv` per project environments over _user_ enviornments (`--user`) and _system_ level environments for packages.
 
 #### JuypterLab
 
@@ -127,25 +127,26 @@ D:\Code\IBMSB\.venv\Lib\site-packages\traitlets\traitlets.py:1897: DeprecationWa
 [I 2024-07-05 17:53:14.060 ServerApp] http://localhost:8888/lab?token=7ebb81a71da0b99bda657c46dea3a8903d24528a0de6cf41
 [I 2024-07-05 17:53:14.061 ServerApp]     http://127.0.0.1:8888/lab?token=7ebb81a71da0b99bda657c46dea3a8903d24528a0de6cf41
 [I 2024-07-05 17:53:14.061 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[C 2024-07-05 17:53:14.147 ServerApp] 
+[C 2024-07-05 17:53:14.147 ServerApp]
 
     To access the server, open this file in a browser:
         file:///C:/Users/Charles/AppData/Roaming/jupyter/runtime/jpserver-37228-open.html
     Or copy and paste one of these URLs:
         http://localhost:8888/lab?token=7ebb81a71da0b99bda657c46dea3a8903d24528a0de6cf41
         http://127.0.0.1:8888/lab?token=7ebb81a71da0b99bda657c46dea3a8903d24528a0de6cf41
+
 [I 2024-07-05 17:53:14.368 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
 [W 2024-07-05 17:53:36.146 LabApp] Could not determine jupyterlab build status without nodejs
+
 </pre>
 </details>
 
-
 1. To access the server, open this file in a browser:
-    - file:///C:/Users/Charles/AppData/Roaming/jupyter/runtime/jpserver-37228-open.html 
+   - file:///C:/Users/Charles/AppData/Roaming/jupyter/runtime/jpserver-37228-open.html
 2. Or copy and paste one of these URLs:
-    - http://localhost:8888/lab?token=7ebb81a71da0b99bda657c46dea3a8903d24528a0de6cf41
-    - http://127.0.0.1:8888/lab?token=7ebb81a71da0b99bda657c46dea3a8903d24528a0de6cf41
-3.  Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+   - http://localhost:8888/lab?token=7ebb81a71da0b99bda657c46dea3a8903d24528a0de6cf41
+   - http://127.0.0.1:8888/lab?token=7ebb81a71da0b99bda657c46dea3a8903d24528a0de6cf41
+3. Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 
 #### Juypter Notebook
 
@@ -174,15 +175,14 @@ pip install voila
 
 ```
 
-
-
 ### VSCode Juytper Extensions
+
 `3rd Party Bill of Materials - Extensions`
 
 > - ✅ Jupyter (extension ID: ms-toolsai.jupyter)
 > - ✅ Jupyter Notebook Renderers (extension ID: ms-toolsai.jupyter-renderers)
 > - ✅ Jupyter Keymap (extension ID: ms-toolsai.jupyter-keymap)
-> - ✅ Jupyter Cell Tags (extension ID: ms-toolsai.vscode-jupyter-cell-tags) 
+> - ✅ Jupyter Cell Tags (extension ID: ms-toolsai.vscode-jupyter-cell-tags)
 > - ✅ Jupyter Slide Show (extension ID: ms-toolsai.vscode-jupyter-slideshow)
 > - ✅ VS Code Jupyter Notebook Previewer (extension ID: jithurjacob.nbpreviewer)
 > - ✅ Juyptext for Notebooks (conguiwu) (extension ID: congyiwu.vscode-jupytext)
@@ -190,6 +190,7 @@ pip install voila
 > - ✅ Juypter TOC (extension ID: xelad0m.jupyter-toc)
 
 **Other | Related**
+
 > - ✅ GitHub Issue Notebooks (extension ID: ms-vscode.vscode-github-issue-notebooks)
 > - ✅ Polyglot Notebooks (extension ID: ms-dotnettools.dotnet-interactive-vscode )
 
@@ -199,8 +200,8 @@ pip install voila
 
 #### 2. Create, activate & select the virtual environment
 
-- Either: i.  Clone your repo from GitHub, navigate to and start enabling Python per project
-- Or    : ii. Make a new repo directory, initialise Git for project and start enabling Python per project
+- Either: i. Clone your repo from GitHub, navigate to and start enabling Python per project
+- Or : ii. Make a new repo directory, initialise Git for project and start enabling Python per project
 
 ##### Create `venv`
 
@@ -239,6 +240,7 @@ python -m pip install --upgrade pip
 ```
 
 ### Kernel Setup Flow
+
 > Sources: [1,2]
 
 #### 3. Install `ipykernel`
@@ -314,7 +316,8 @@ traitlets-5.14.3
 wcwidth-0.2.13</pre>
 </details>
 
-#### 4. Create New (Named) Kernel 
+#### 4. Create New (Named) Kernel
+
 > Sources: [1,2]
 
 ```python
@@ -336,10 +339,11 @@ Installed kernelspec ibmsbai in C:\Users\Charles\AppData\Roaming\jupyter\kernels
 </details>
 
 #### 5. Start Juypter
+
 > Sources: [1,2]
 
 - From Terminal: as follows
-- From Command Panel: 
+- From Command Panel:
   - ![alt text](assets\img_Commands_Juypter.png)
 
 ```python
@@ -363,6 +367,7 @@ To access the notebook, open this file in a browser:
 ```
 
 #### 6. Select Kernet for Project
+
 > Sources: [1,2]
 
 ##### 6.1 Create new notebook: `.iynb`
@@ -387,7 +392,7 @@ pip install jedi-language-server
 
 ```
 
-#####  7.2 Python LSP Server | Protocol
+##### 7.2 Python LSP Server | Protocol
 
 ```python
 pip install python-lsp-server
@@ -428,12 +433,13 @@ pylance
 ### Launch an Interactive Window
 
 - `Ctrl + shift + P` + `Create Interactive Window`
-  -  Multiple Workspace folders opened d:\Code\IBMSB, d:\Langs\Node\v20.15.0
-     -  Starting interactive window for resource '' with controller `'.jvsc74a57bd089d947ee5d2aaa1eefb549a877eacfb210543ead6485de83f2532087dfd2eefb.d:\Code\IBMSB\.venv\Scripts\python.exe.d:\Code\IBMSB\.venv\Scripts\python.exe.-m#ipykernel_launcher (Interactive)'`
+  - Multiple Workspace folders opened d:\Code\IBMSB, d:\Langs\Node\v20.15.0
+    - Starting interactive window for resource '' with controller `'.jvsc74a57bd089d947ee5d2aaa1eefb549a877eacfb210543ead6485de83f2532087dfd2eefb.d:\Code\IBMSB\.venv\Scripts\python.exe.d:\Code\IBMSB\.venv\Scripts\python.exe.-m#ipykernel_launcher (Interactive)'`
 
 ### Start Jupyter Server
+
 - `juypter select intrepter to start Jupyter server `0
-   - Process Execution: d:\Code\IBMSB\.venv\Scripts\python.exe -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
-   - Process Execution: d:\Code\IBMSB\.venv\Scripts\python.exe -c "import jupyter;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
-   - Process Execution: d:\Code\IBMSB\.venv\Scripts\python.exe -c "import notebook;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
-   - Process Execution: d:\Code\IBMSB\.venv\Scripts\python.exe -m jupyter kernelspec --version
+  - Process Execution: d:\Code\IBMSB\.venv\Scripts\python.exe -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+  - Process Execution: d:\Code\IBMSB\.venv\Scripts\python.exe -c "import jupyter;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+  - Process Execution: d:\Code\IBMSB\.venv\Scripts\python.exe -c "import notebook;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+  - Process Execution: d:\Code\IBMSB\.venv\Scripts\python.exe -m jupyter kernelspec --version

@@ -90,7 +90,7 @@ Two projectworks modules:
 
 > <center> <hr> <center>
 
-### 2. <ins>Foundations in Building Machine Learning Models</ins>
+### [![](./assets/machine-learning-methods-and-tools50px.png)](https://www.credly.com/go/NIcXkcMR) 2. <ins>Foundations in Building Machine Learning Models</ins>
 
 > Machine learning continues to transform technology, enabling organizations to streamline processes, optimize resource allocation, and unlock valuable insights from complex data sets that would be impractical or impossible to analyze manually. <br>
 > This course provides the knowledge and skills to apply machine learning principles in projects.
