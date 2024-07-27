@@ -48,7 +48,7 @@ Two projectworks modules:
 
 > <center> <hr> <center>
 
-### 1. <ins>Artifical Intelligence Fundamentals</ins> <sup>1</sup>
+### [![](./assets/artificial-intelligence-fundamentals50px.png)](https://www.credly.com/go/30wgOMpM "GoTo: Credly accredited: IBM SkillsBuild Artifical Intelligence Fundamentals 2024") 1. <ins>Artifical Intelligence Fundamentals</ins> <sup>1</sup>
 
 > Explores AI’s history, then see how it can change the world. Along the way, with a deep dive into ways that AI makes predictions, understands language and images, and learns using circuits inspired by the human brain. <br><br>
 > After a hands-on simulation to build and test a machine learning model, and pick with tips on how to find a career in artificial intelligence.  
@@ -90,7 +90,7 @@ Two projectworks modules:
 
 > <center> <hr> <center>
 
-### [![](./assets/machine-learning-methods-and-tools50px.png)](https://www.credly.com/go/NIcXkcMR) 2. <ins>Foundations in Building Machine Learning Models</ins>
+### 2. <ins>Foundations in Building Machine Learning Models</ins>
 
 > Machine learning continues to transform technology, enabling organizations to streamline processes, optimize resource allocation, and unlock valuable insights from complex data sets that would be impractical or impossible to analyze manually. <br>
 > This course provides the knowledge and skills to apply machine learning principles in projects.
@@ -103,7 +103,7 @@ Two projectworks modules:
 
 ---
   
-#### i. Machine Learning Methods and Tools <sup>4</sup>
+#### [![MachineLearningTools](./assets/machine-learning-methods-and-tools50px.png)](https://www.credly.com/go/NIcXkcMR "Verify Credly.com: Machine Learning Methods and Tools") i. Machine Learning Methods and Tools <sup>4</sup>
 
 > Undesrstand about the significance, applicability, and evolution of machine learning.
 > - Discover how computers learn without being explicitly programmed and
@@ -111,27 +111,29 @@ Two projectworks modules:
 
 > Understand the evolution of machine learning, tracing its roots to its current form.
 
-#### ii. Data Analytics for Machine Learning <sup>5</sup>
+#### [![DataAnalytics](./assets/data-analytics-for-machine-learning50px.png)](https://www.credly.com/go/Kcoadh4s "Verify Credly.com: Data Analytics for Machine Learning") ii. Data Analytics for Machine Learning <sup>5</sup>
 
 > Understand data exploration and how data scientists understand a data set through analysis and visualization.
 > - Explore the steps of data preprocessing and discover challenges with data such as inconsistent formats, outliers, duplicates, and outdated data.
 > - And about bias in machine learning and how to mitigate biases using various solutions to ensure fairness in data analysis.
 
-#### iii. Supervised Learning Methods <sup>6</sup>
+#### [![SupervisedLearning](./assets/supervised-learning-methods50px.png)](https://www.credly.com/go/X6duguki "Verify Credly.com: Supervised Learning Methods") iii. Supervised Learning Methods <sup>6</sup>
 
 > Understand the fundamental concepts that make supervised learning an indispensable part of machine learning
 > - Discover how these models transform raw data into insightful predictions and decisions. 
 > - Explore a range of algorithms, such as linear regression, to advanced techniques, such as support vector machines. 
 > - And about decision trees, random forests, and K-nearest neighbors.
 
-#### iv. Natural Language Processing <sup>7</sup>
+#### [![NLP](./assets/natural-language-processing50px.png)]( https://www.credly.com/go/n0LiwX4h "Verify Credly.com: Natural Language Processing") iv. Natural Language Processing <sup>7</sup>
 
 >  Understand natural language processing (NLP) and its role in language understanding, sentiment analysis, and advanced text generation. 
 > - Discover how NLP systems are designed to interpret human language, extract sentiments from textual data, and even generate coherent sentences.
 > - And the relationship between natural language understanding (NLU) and natural language generation (NLG).
 > - And about practical NLP techniques and models that provide valuable insights into this exciting technology.
 
-#### v. Unsupervised Learning Methods <sup>8</sup>
+#### [![NLP](./assets/unsupervised-learning-methods50px.png)](https://www.credly.com/go/QNNq9fXK "Verify Credly.com: Unsupervised Learning Methods") v. Unsupervised Learning Methods <sup>8</sup>
+
+ 
 
 > Understand the principles and challenges of unsupervised learning, by: 
 > - Explore the intricacies of algorithmic complexity and its implications for computational power,
