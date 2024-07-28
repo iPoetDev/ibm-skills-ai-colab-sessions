@@ -29,11 +29,11 @@ Have a read on my learners journey, as a overview and as a portfolio artefact: [
 
 ## Live Technical Sessions Workbooks
 
-[![LinkedIn](https://img.shields.io/badge/🌲Marty%20Bradley-LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/martybradley/ "@🌲Marty Bradley @Linkedin.com") <sup>|</sup> [![GoogleColab](https://img.shields.io/badge/Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com)
+[![LinkedIn](https://img.shields.io/badge/🌲Marty%20Bradley-LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/martybradley/ "@🌲Marty Bradley @Linkedin.com") <sup>|</sup> [![GoogleColab](https://img.shields.io/badge/Google-CoLab-0e80c1?logo=googlecolab&logoColor=d39816)](https://colab.research.google.com/ "Free Compute Credits across CPU/GPU")
 
 - All were live Instructor Lead Technical sessions.
 - This repository is a collection of of these sessions and their code examples using Python and Juypter notebooks.
-- The remote compute platform was Google CoLabs.
+- The remote compute platform was [Google CoLabs](https://colab.research.google.com) for CPU and GPU workloads.
 - This demonstrates my understanding of these technologies, approaches and the application of these labs.
 
 See [`Sessions.md`](./Sessions.md "IBM Build Programme for AI - Colab - Sessions") for further higher level details <sup><i>(audience: all)</i></sup>; click on each session below for a closer inspection per each technical sessions notebook <sup><i>(audience: engineering)</i></sup>.
