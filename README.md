@@ -29,7 +29,7 @@ Have a read on my learners journey, as a overview and as a portfolio artefact: [
 
 ## Live Technical Sessions Workbooks
 
-[![LinkedIn](https://img.shields.io/badge/🌲Marty%20Bradley-LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/martybradley/ "@🌲Marty Bradley @Linkedin.com")
+[![LinkedIn](https://img.shields.io/badge/🌲Marty%20Bradley-LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/martybradley/ "@🌲Marty Bradley @Linkedin.com") <sup>|</sup> [![GoogleColab](https://img.shields.io/badge/Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com)
 
 - All were live Instructor Lead Technical sessions.
 - This repository is a collection of of these sessions and their code examples using Python and Juypter notebooks.
