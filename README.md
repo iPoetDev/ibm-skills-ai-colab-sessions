@@ -48,6 +48,11 @@ See [`Sessions.md`](./Sessions.md "IBM Build Programme for AI - Colab - Sessions
 
 - [All Notebooks]((./notebooks-labs))
 
+### Technologies and Approaches
+
+- **Technology**: <ins><ins>`#python`</ins> &nbsp;&nbsp;|&nbsp;&nbsp; <ins>`#jupyter-notebooks`<ins> &nbsp;&nbsp;|&nbsp;&nbsp; <ins>`#huggingface`<ins> &nbsp;&nbsp;|&nbsp;&nbsp; <ins>`#tensorflow`<ins> &nbsp;&nbsp;|&nbsp;&nbsp; <ins>`#scikit-learn`<ins> &nbsp;&nbsp;|&nbsp;&nbsp; <ins>`#numpy`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#pandas`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#matplotlib`<br><br>
+- **Approaches**: <ins>`#unsupervised-learning`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#generative-ai`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#regession`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#classifications`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#clustering`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#recommender-systems`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#transformers`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#varational-auto-encoders`
+
 ## Coursework Modules
 
 Three key modules:
