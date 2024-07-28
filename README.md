@@ -170,6 +170,35 @@ See the public [Gist: IBM Programme for AI - Readme.md]()
 
 See [IBM Programme for AI 2024 - Final Project]() repository.
 
+## Repository
+
+```plaintext
+./ (root)
+│ 
+├── assets/
+│   ├ ... 
+│   └──
+│ 
+├── modules-examples/
+│   ├ ... 
+│   └──
+│ 
+├── notebook-labs/
+│   ├── Session1.ipynb
+│   ├── Session2.ipynb
+│   ├── Session3_FineTuning_BERTandGPT.ipynb
+│   ├── Session3_VAE.ipynb
+│   └── Session4___.ipynb
+│   ...
+├── README.md
+│   ...
+├── Session.md
+└── Setup.md   
+
+```
+
+<small><strong>Project Structure</strong></small> : [ibm-skills-ai-colab-sessions](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/tree/main)
+
 ## References
 
 ### Credly
@@ -183,9 +212,10 @@ IBM partners with Credly for accreditation and completion.
 - <sup>8</sup> [Unsupervised Learning Methods, Credly.com]( https://www.credly.com/go/n0LiwX4h "Credly.com: Unsupervised Learning Methods, July 8 2024")
 - <sup>7</sup> [Natural Language Processing, Credly.com]( https://www.credly.com/go/QNNq9fXK "Credly.com: Natural Language Processing, July 8 2024")
 
+
 ## Author
 
-[Charles J. Fowler](https://github.com/ipoetdev) : [LinkedIn](https://ie.linkedin.com/in/charlesjfowler) | GitHub: [iPoetDev](https://github.com/ipoetdev)
+[![LinkedIn](https://img.shields.io/badge/Author-Charles%20J%20Fowler-0077B5?logo=gmail&logoColor=white)](mailto:ipoetdev-github-no-reply@outlook.com "Contact CJ on GItHub email: ipoetdev-github-no-reply@outlook.com") <sup>|</sup> [![LinkedIn](https://img.shields.io/badge/Charles%20J%20Fowler-LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://ie.linkedin.com/in/charlesjfowler "@CharlesJFowler @Linkedin.com") <sup>|</sup> [![LinkedIn](https://img.shields.io/badge/iPoetDev-GitHub-0077B5?logo=GitHub&logoColor=white)](https://github.com/ipoetdev "@iPoetDev @GitHub")
 
 ## ChangeLog
 
