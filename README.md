@@ -8,7 +8,19 @@
 
 # Programme for Artifical Intelligence 2024 | IBM SkillsBuild
 
-> **Badges**: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/iPoetDev/ibm-skills-ai-colab-sessions/main)
+> **<small><sub><ins>BADGES:</ins></sub></small>** <br> <sub>&nbsp;</sup><br>[![](https://img.shields.io/badge/IBM-SkillsBuild-002cce?logo=ibm&logoColor=white)](https://skillsbuild.org/ "IBM SkillsBuild: Skills based eLearning from IBM: inclusive of IBM Cloud, IBM WatsonX Studio, Artifical Intelligence, Machine Learning, Data Science, Generative AI, Python, Jupyter Notebooks")  <sup>|</sup> 
+> [![GoogleColab](https://img.shields.io/badge/Google-CoLab-0e80c1?logo=googlecolab&logoColor=d39816)](https://colab.research.google.com/ "Free Compute Credits across CPU/GPU")  <sup>|</sup>
+ [![](https://img.shields.io/badge/Python-3.12-blue?color=ffde56&logo=python&logoColor=3873a3)](https://www.python.org/ "Python: Programming Language")  <sup>|</sup>
+ [![](https://img.shields.io/badge/Jupyter%20Notebook-7.12-932600?color=932600&logo=jupyter&logoColor=white)](https://jupyter.org/ "Jupyter: Interactive Compute, Notebook Interface") <sup>|</sup>
+ [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-🤗-FF6F20?logo=Huggingface&logoColor=FF6F20)](https://huggingface.co/ "HuggingFace: MachineLearning: Hub, Platform, Community") <sup>|</sup>
+ [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.12.0-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org "Tensorflow: Website: Platforms for Machine Learning") <sup>|</sup>
+ [![Keras.io](https://img.shields.io/badge/Keras.io-3.0-d00000?logo=keras&logoColor=white)](https://keras.io/ "Keras: Keras.io: Datasets & Models") <sup> | </sup>
+ [![SciKit Learn](https://img.shields.io/badge/SciKit-1.5-f89939?colour=f89939&logo=scikit-learn&logoColor=3499cd)](https://scikit-learn.org/stable/index.html  "SciKit-Learn.org Website: Data Analysis, Machine Learning") <sup> | </sup>
+ [![Pandas](https://img.shields.io/badge/Pandas-2.2.2-00002e?color=00002e&logo=pandas&logoColor=white)](https://pandas.pydata.org/ "Pandas: Website: Data Structures, Data Processing") <sup>|</sup>
+ [![NumPy](https://img.shields.io/badge/NumPy-2.0-4dabcf?color=4dabcf&logo=numpy&logoColor=4d77cf)](https://numpy.org/ "NumPy: Website: Numerical, Scientic Compute") <sup>|</sup>
+ [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.9.1-65baea?color=65baea&logo=matplotlib&logoColor=white)](https://matplotlib.org/stable/ "MatplotLib: Website: Data Visualisation")<br><br>
+
+
 
 ## Learning Journey 
 
@@ -26,6 +38,8 @@ There were also guided projects in [Embedable AI](#embeddable-ai) and a [final g
 ### Blog: A Learners Journey
 
 Have a read on my learners journey, as a overview and as a portfolio artefact: [here]().
+
+> <hr>
 
 ## Live Technical Sessions Workbooks
 
@@ -53,6 +67,13 @@ See [`Sessions.md`](./Sessions.md "IBM Build Programme for AI - Colab - Sessions
 - **Technology**: <ins><ins>`#python`</ins> &nbsp;&nbsp;|&nbsp;&nbsp; <ins>`#jupyter-notebooks`<ins> &nbsp;&nbsp;|&nbsp;&nbsp; <ins>`#huggingface`<ins> &nbsp;&nbsp;|&nbsp;&nbsp; <ins>`#tensorflow`<ins> &nbsp;&nbsp;|&nbsp;&nbsp; <ins>`#scikit-learn`<ins> &nbsp;&nbsp;|&nbsp;&nbsp; <ins>`#numpy`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#pandas`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#matplotlib`<br><br>
 - **Approaches**: <ins>`#unsupervised-learning`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#generative-ai`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#regession`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#classifications`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#clustering`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#recommender-systems`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#transformers`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#varational-auto-encoders`
 
+<br>
+
+---
+> .
+---
+
+
 ## Coursework Modules
 
 Three key modules:
@@ -68,7 +89,7 @@ Two projectworks modules:
 
 > <center> <hr> <center>
 
-### [![](./assets/artificial-intelligence-fundamentals50px.png)](https://www.credly.com/go/30wgOMpM "GoTo: Credly accredited: IBM SkillsBuild Artifical Intelligence Fundamentals 2024") 1. <ins>Artifical Intelligence Fundamentals</ins> <sup>1</sup>
+### [![](./assets/artificial-intelligence-fundamentals50px.png)](https://www.credly.com/go/30wgOMpM "GoTo: Credly accredited: IBM SkillsBuild Artifical Intelligence Fundamentals 2024") 1. <ins>Artifical Intelligence Fundamentals</ins> <sup>[1](#credly)</sup>
 
 > Explores AI’s history, then see how it can change the world. Along the way, with a deep dive into ways that AI makes predictions, understands language and images, and learns using circuits inspired by the human brain. <br><br>
 > After a hands-on simulation to build and test a machine learning model, and pick with tips on how to find a career in artificial intelligence.  
@@ -123,7 +144,7 @@ Two projectworks modules:
 
 ---
   
-#### [![MachineLearningTools](./assets/machine-learning-methods-and-tools50px.png)](https://www.credly.com/go/NIcXkcMR "Verify Credly.com: Machine Learning Methods and Tools") i. Machine Learning Methods and Tools <sup>2</sup>
+#### [![MachineLearningTools](./assets/machine-learning-methods-and-tools50px.png)](https://www.credly.com/go/NIcXkcMR "Verify Credly.com: Machine Learning Methods and Tools") i. Machine Learning Methods and Tools <sup>[2](#credly)</sup>
 
 > Undesrstand about the significance, applicability, and evolution of machine learning.
 > - Discover how computers learn without being explicitly programmed and
@@ -131,27 +152,27 @@ Two projectworks modules:
 
 > Understand the evolution of machine learning, tracing its roots to its current form.
 
-#### [![DataAnalytics](./assets/data-analytics-for-machine-learning50px.png)](https://www.credly.com/go/Kcoadh4s "Verify Credly.com: Data Analytics for Machine Learning") ii. Data Analytics for Machine Learning <sup>3</sup>
+#### [![DataAnalytics](./assets/data-analytics-for-machine-learning50px.png)](https://www.credly.com/go/Kcoadh4s "Verify Credly.com: Data Analytics for Machine Learning") ii. Data Analytics for Machine Learning <sup>[3](#credly)</sup>
 
 > Understand data exploration and how data scientists understand a data set through analysis and visualization.
 > - Explore the steps of data preprocessing and discover challenges with data such as inconsistent formats, outliers, duplicates, and outdated data.
 > - And about bias in machine learning and how to mitigate biases using various solutions to ensure fairness in data analysis.
 
-#### [![SupervisedLearning](./assets/supervised-learning-methods50px.png)](https://www.credly.com/go/X6duguki "Verify Credly.com: Supervised Learning Methods") iii. Supervised Learning Methods <sup>4</sup>
+#### [![SupervisedLearning](./assets/supervised-learning-methods50px.png)](https://www.credly.com/go/X6duguki "Verify Credly.com: Supervised Learning Methods") iii. Supervised Learning Methods <sup>[4](#credly)</sup>
 
 > Understand the fundamental concepts that make supervised learning an indispensable part of machine learning
 > - Discover how these models transform raw data into insightful predictions and decisions. 
 > - Explore a range of algorithms, such as linear regression, to advanced techniques, such as support vector machines. 
 > - And about decision trees, random forests, and K-nearest neighbors.
 
-#### [![NLP](./assets/natural-language-processing50px.png)]( https://www.credly.com/go/n0LiwX4h "Verify Credly.com: Natural Language Processing") iv. Natural Language Processing <sup>5</sup>
+#### [![NLP](./assets/natural-language-processing50px.png)]( https://www.credly.com/go/n0LiwX4h "Verify Credly.com: Natural Language Processing") iv. Natural Language Processing <sup>[5](#credly)</sup>
 
 >  Understand natural language processing (NLP) and its role in language understanding, sentiment analysis, and advanced text generation. 
 > - Discover how NLP systems are designed to interpret human language, extract sentiments from textual data, and even generate coherent sentences.
 > - And the relationship between natural language understanding (NLU) and natural language generation (NLG).
 > - And about practical NLP techniques and models that provide valuable insights into this exciting technology.
 
-#### [![NLP](./assets/unsupervised-learning-methods50px.png)](https://www.credly.com/go/QNNq9fXK "Verify Credly.com: Unsupervised Learning Methods") v. Unsupervised Learning Methods <sup>6</sup>
+#### [![NLP](./assets/unsupervised-learning-methods50px.png)](https://www.credly.com/go/QNNq9fXK "Verify Credly.com: Unsupervised Learning Methods") v. Unsupervised Learning Methods <sup>[6](#credly)</sup>
 
  
 
@@ -175,6 +196,10 @@ Two projectworks modules:
 
 > Practically explore, in live technical sessions, to create algorithms, and gain hands-on experience writing code using popular programming languages, like python and juypter notebooks.
 
+<br>
+
+> <hr>
+
 ## Guided Projectworks
 
 ### Embeddable AI 
@@ -191,6 +216,12 @@ See the public [Gist: IBM Programme for AI - Readme.md]()
 ### Final Project
 
 See [IBM Programme for AI 2024 - Final Project]() repository.
+
+<br>
+
+---
+> .
+---
 
 ## Repository
 
@@ -221,6 +252,8 @@ See [IBM Programme for AI 2024 - Final Project]() repository.
 
 <small><strong>Project Structure</strong></small> : [ibm-skills-ai-colab-sessions](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/tree/main)
 
+> <hr>
+
 ## References
 
 ### Credly
@@ -241,6 +274,10 @@ The [source notebooks](./notebooks-labs) originally come from the course instruc
 [![Contact](https://img.shields.io/badge/Author-Marty%20Bradly-0077B5?logo=internet-explorer&logoColor=white)](https://www.evergreen-ai.com/about "Contact Marty @evergreen-ai.com/about") <sup>|</sup> [![LinkedIn](https://img.shields.io/badge/🌲Marty%20Bradley-LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/martybradley/ "@🌲Marty Bradley @Linkedin.com") <sup>|</sup> [![LinkedIn](https://img.shields.io/badge/Marty916-GitHub-0077B5?logo=GitHub&logoColor=white)](https://github.com/marty916 "@Marty916 @GitHub, Last Accessed: July 2024")
 
 - [AI-Training-Colab-Notebooks/IBM-SkillsBuild-Program-in-Artificial-Intelligence](https://github.com/marty916/AI-Training-Colab-Notebooks/tree/main/IBM-SkillsBuild-Program-in-Artificial-Intelligence "@Marty916 @GitHub.com, Last Accessed: July 206") | [Commits](https://github.com/marty916/AI-Training-Colab-Notebooks/commits/main/IBM-SkillsBuild-Program-in-Artificial-Intelligence)
+
+<br>
+
+> <hr>
 
 ## Author
 
