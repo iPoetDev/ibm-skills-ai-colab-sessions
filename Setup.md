@@ -22,9 +22,145 @@
 - Use Brew for WSL, Linux, macOS to install
 - Use `venv` per project environments over _user_ enviornments (`--user`) and _system_ level environments for packages.
 
+#### Jupyter
+
+```python
+pip install jupyter
+
+```
+
+<details>
+<summary>Juypter</summary>
+pip install jupyter    
+Collecting jupyter
+  Downloading jupyter-1.0.0-py2.py3-none-any.whl.metadata (995 bytes)
+Requirement already satisfied: notebook in d:\code\ibmsb\.venv\lib\site-packages (from jupyter) (7.2.1)
+Collecting qtconsole (from jupyter)
+  Downloading qtconsole-5.5.2-py3-none-any.whl.metadata (5.1 kB)
+Collecting jupyter-console (from jupyter)
+  Downloading jupyter_console-6.6.3-py3-none-any.whl.metadata (5.8 kB)
+Requirement already satisfied: nbconvert in d:\code\ibmsb\.venv\lib\site-packages (from jupyter) (7.16.4)
+Requirement already satisfied: ipykernel in d:\code\ibmsb\.venv\lib\site-packages (from jupyter) (6.29.5)
+Collecting ipywidgets (from jupyter)
+  Downloading ipywidgets-8.1.3-py3-none-any.whl.metadata (2.4 kB)
+Requirement already satisfied: comm>=0.1.1 in d:\code\ibmsb\.venv\lib\site-packages (from ipykernel->jupyter) (0.2.2)
+Requirement already satisfied: debugpy>=1.6.5 in d:\code\ibmsb\.venv\lib\site-packages (from ipykernel->jupyter) (1.8.2)
+Requirement already satisfied: ipython>=7.23.1 in d:\code\ibmsb\.venv\lib\site-packages (from ipykernel->jupyter) (8.26.0)
+Requirement already satisfied: jupyter-client>=6.1.12 in d:\code\ibmsb\.venv\lib\site-packages (from ipykernel->jupyter) (8.6.2)
+Requirement already satisfied: jupyter-core!=5.0.*,>=4.12 in d:\code\ibmsb\.venv\lib\site-packages (from ipykernel->jupyter) (5.7.2)
+Requirement already satisfied: matplotlib-inline>=0.1 in d:\code\ibmsb\.venv\lib\site-packages (from ipykernel->jupyter) (0.1.7)
+Requirement already satisfied: nest-asyncio in d:\code\ibmsb\.venv\lib\site-packages (from ipykernel->jupyter) (1.6.0)
+Requirement already satisfied: packaging in d:\code\ibmsb\.venv\lib\site-packages (from ipykernel->jupyter) (24.1)
+Requirement already satisfied: psutil in d:\code\ibmsb\.venv\lib\site-packages (from ipykernel->jupyter) (6.0.0)
+Requirement already satisfied: pyzmq>=24 in d:\code\ibmsb\.venv\lib\site-packages (from ipykernel->jupyter) (26.0.3)
+Requirement already satisfied: tornado>=6.1 in d:\code\ibmsb\.venv\lib\site-packages (from ipykernel->jupyter) (6.4.1)
+Requirement already satisfied: traitlets>=5.4.0 in d:\code\ibmsb\.venv\lib\site-packages (from ipykernel->jupyter) (5.14.3)
+Collecting widgetsnbextension~=4.0.11 (from ipywidgets->jupyter)
+  Downloading widgetsnbextension-4.0.11-py3-none-any.whl.metadata (1.6 kB)
+Collecting jupyterlab-widgets~=3.0.11 (from ipywidgets->jupyter)
+  Downloading jupyterlab_widgets-3.0.11-py3-none-any.whl.metadata (4.1 kB)
+Requirement already satisfied: prompt-toolkit>=3.0.30 in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-console->jupyter) (3.0.47)
+Requirement already satisfied: pygments in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-console->jupyter) (2.18.0)
+Requirement already satisfied: beautifulsoup4 in d:\code\ibmsb\.venv\lib\site-packages (from nbconvert->jupyter) (4.12.3)
+Requirement already satisfied: bleach!=5.0.0 in d:\code\ibmsb\.venv\lib\site-packages (from nbconvert->jupyter) (6.1.0)
+Requirement already satisfied: defusedxml in d:\code\ibmsb\.venv\lib\site-packages (from nbconvert->jupyter) (0.7.1)
+Requirement already satisfied: jinja2>=3.0 in d:\code\ibmsb\.venv\lib\site-packages (from nbconvert->jupyter) (3.1.4)
+Requirement already satisfied: jupyterlab-pygments in d:\code\ibmsb\.venv\lib\site-packages (from nbconvert->jupyter) (0.3.0)
+Requirement already satisfied: markupsafe>=2.0 in d:\code\ibmsb\.venv\lib\site-packages (from nbconvert->jupyter) (2.1.5)
+Requirement already satisfied: mistune<4,>=2.0.3 in d:\code\ibmsb\.venv\lib\site-packages (from nbconvert->jupyter) (3.0.2)
+Requirement already satisfied: nbclient>=0.5.0 in d:\code\ibmsb\.venv\lib\site-packages (from nbconvert->jupyter) (0.10.0)
+Requirement already satisfied: nbformat>=5.7 in d:\code\ibmsb\.venv\lib\site-packages (from nbconvert->jupyter) (5.10.4)
+Requirement already satisfied: pandocfilters>=1.4.1 in d:\code\ibmsb\.venv\lib\site-packages (from nbconvert->jupyter) (1.5.1)
+Requirement already satisfied: tinycss2 in d:\code\ibmsb\.venv\lib\site-packages (from nbconvert->jupyter) (1.3.0)
+Requirement already satisfied: jupyter-server<3,>=2.4.0 in d:\code\ibmsb\.venv\lib\site-packages (from notebook->jupyter) (2.14.1)
+Requirement already satisfied: jupyterlab-server<3,>=2.27.1 in d:\code\ibmsb\.venv\lib\site-packages (from notebook->jupyter) (2.27.2)
+Requirement already satisfied: jupyterlab<4.3,>=4.2.0 in d:\code\ibmsb\.venv\lib\site-packages (from notebook->jupyter) (4.2.3)
+Requirement already satisfied: notebook-shim<0.3,>=0.2 in d:\code\ibmsb\.venv\lib\site-packages (from notebook->jupyter) (0.2.4)
+Collecting qtpy>=2.4.0 (from qtconsole->jupyter)
+  Downloading QtPy-2.4.1-py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: six>=1.9.0 in d:\code\ibmsb\.venv\lib\site-packages (from bleach!=5.0.0->nbconvert->jupyter) (1.16.0)
+Requirement already satisfied: webencodings in d:\code\ibmsb\.venv\lib\site-packages (from bleach!=5.0.0->nbconvert->jupyter) (0.5.1)
+Requirement already satisfied: decorator in d:\code\ibmsb\.venv\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (5.1.1)
+Requirement already satisfied: jedi>=0.16 in d:\code\ibmsb\.venv\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (0.19.1)
+Requirement already satisfied: stack-data in d:\code\ibmsb\.venv\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (0.6.3)
+Requirement already satisfied: colorama in d:\code\ibmsb\.venv\lib\site-packages (from ipython>=7.23.1->ipykernel->jupyter) (0.4.6)
+Requirement already satisfied: python-dateutil>=2.8.2 in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-client>=6.1.12->ipykernel->jupyter) (2.9.0.post0)
+Requirement already satisfied: platformdirs>=2.5 in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-core!=5.0.*,>=4.12->ipykernel->jupyter) (4.2.2)
+Requirement already satisfied: pywin32>=300 in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-core!=5.0.*,>=4.12->ipykernel->jupyter) (306)
+Requirement already satisfied: anyio>=3.1.0 in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (4.4.0)
+Requirement already satisfied: argon2-cffi>=21.1 in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (23.1.0)
+Requirement already satisfied: jupyter-events>=0.9.0 in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (0.10.0)
+Requirement already satisfied: jupyter-server-terminals>=0.4.4 in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (0.5.3)
+Requirement already satisfied: overrides>=5.0 in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (7.7.0)
+Requirement already satisfied: prometheus-client>=0.9 in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (0.20.0)
+Requirement already satisfied: pywinpty>=2.0.1 in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (2.0.13)
+Requirement already satisfied: send2trash>=1.8.2 in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (1.8.3)
+Requirement already satisfied: terminado>=0.8.3 in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (0.18.1)
+Requirement already satisfied: websocket-client>=1.7 in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-server<3,>=2.4.0->notebook->jupyter) (1.8.0)
+Requirement already satisfied: async-lru>=1.0.0 in d:\code\ibmsb\.venv\lib\site-packages (from jupyterlab<4.3,>=4.2.0->notebook->jupyter) (2.0.4)
+Requirement already satisfied: httpx>=0.25.0 in d:\code\ibmsb\.venv\lib\site-packages (from jupyterlab<4.3,>=4.2.0->notebook->jupyter) (0.27.0)
+Requirement already satisfied: jupyter-lsp>=2.0.0 in d:\code\ibmsb\.venv\lib\site-packages (from jupyterlab<4.3,>=4.2.0->notebook->jupyter) (2.2.5)
+Requirement already satisfied: setuptools>=40.1.0 in d:\code\ibmsb\.venv\lib\site-packages (from jupyterlab<4.3,>=4.2.0->notebook->jupyter) (70.2.0)
+Requirement already satisfied: babel>=2.10 in d:\code\ibmsb\.venv\lib\site-packages (from jupyterlab-server<3,>=2.27.1->notebook->jupyter) (2.15.0)
+Requirement already satisfied: json5>=0.9.0 in d:\code\ibmsb\.venv\lib\site-packages (from jupyterlab-server<3,>=2.27.1->notebook->jupyter) (0.9.25)
+Requirement already satisfied: jsonschema>=4.18.0 in d:\code\ibmsb\.venv\lib\site-packages (from jupyterlab-server<3,>=2.27.1->notebook->jupyter) (4.22.0)
+Requirement already satisfied: requests>=2.31 in d:\code\ibmsb\.venv\lib\site-packages (from jupyterlab-server<3,>=2.27.1->notebook->jupyter) (2.32.3)
+Requirement already satisfied: fastjsonschema>=2.15 in d:\code\ibmsb\.venv\lib\site-packages (from nbformat>=5.7->nbconvert->jupyter) (2.20.0)
+Requirement already satisfied: wcwidth in d:\code\ibmsb\.venv\lib\site-packages (from prompt-toolkit>=3.0.30->jupyter-console->jupyter) (0.2.13)
+Requirement already satisfied: soupsieve>1.2 in d:\code\ibmsb\.venv\lib\site-packages (from beautifulsoup4->nbconvert->jupyter) (2.5)
+Requirement already satisfied: idna>=2.8 in d:\code\ibmsb\.venv\lib\site-packages (from anyio>=3.1.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (3.7)
+Requirement already satisfied: sniffio>=1.1 in d:\code\ibmsb\.venv\lib\site-packages (from anyio>=3.1.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (1.3.1)
+Requirement already satisfied: argon2-cffi-bindings in d:\code\ibmsb\.venv\lib\site-packages (from argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->notebook->jupyter) (21.2.0)
+Requirement already satisfied: certifi in d:\code\ibmsb\.venv\lib\site-packages (from httpx>=0.25.0->jupyterlab<4.3,>=4.2.0->notebook->jupyter) (2024.7.4)
+Requirement already satisfied: httpcore==1.* in d:\code\ibmsb\.venv\lib\site-packages (from httpx>=0.25.0->jupyterlab<4.3,>=4.2.0->notebook->jupyter) (1.0.5)
+Requirement already satisfied: h11<0.15,>=0.13 in d:\code\ibmsb\.venv\lib\site-packages (from httpcore==1.*->httpx>=0.25.0->jupyterlab<4.3,>=4.2.0->notebook->jupyter) (0.14.0)
+Requirement already satisfied: parso<0.9.0,>=0.8.3 in d:\code\ibmsb\.venv\lib\site-packages (from jedi>=0.16->ipython>=7.23.1->ipykernel->jupyter) (0.8.4)
+Requirement already satisfied: attrs>=22.2.0 in d:\code\ibmsb\.venv\lib\site-packages (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->notebook->jupyter) (23.2.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in d:\code\ibmsb\.venv\lib\site-packages (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->notebook->jupyter) (2023.12.1)
+Requirement already satisfied: referencing>=0.28.4 in d:\code\ibmsb\.venv\lib\site-packages (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->notebook->jupyter) (0.35.1)
+Requirement already satisfied: rpds-py>=0.7.1 in d:\code\ibmsb\.venv\lib\site-packages (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->notebook->jupyter) (0.18.1)
+Requirement already satisfied: python-json-logger>=2.0.4 in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (2.0.7)
+Requirement already satisfied: pyyaml>=5.3 in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (6.0.1)
+Requirement already satisfied: rfc3339-validator in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (0.1.4)
+Requirement already satisfied: rfc3986-validator>=0.1.1 in d:\code\ibmsb\.venv\lib\site-packages (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (0.1.1)
+Requirement already satisfied: charset-normalizer<4,>=2 in d:\code\ibmsb\.venv\lib\site-packages (from requests>=2.31->jupyterlab-server<3,>=2.27.1->notebook->jupyter) (3.3.2)
+Requirement already satisfied: urllib3<3,>=1.21.1 in d:\code\ibmsb\.venv\lib\site-packages (from requests>=2.31->jupyterlab-server<3,>=2.27.1->notebook->jupyter) (2.2.2)
+Requirement already satisfied: executing>=1.2.0 in d:\code\ibmsb\.venv\lib\site-packages (from stack-data->ipython>=7.23.1->ipykernel->jupyter) (2.0.1)
+Requirement already satisfied: asttokens>=2.1.0 in d:\code\ibmsb\.venv\lib\site-packages (from stack-data->ipython>=7.23.1->ipykernel->jupyter) (2.4.1)
+Requirement already satisfied: pure-eval in d:\code\ibmsb\.venv\lib\site-packages (from stack-data->ipython>=7.23.1->ipykernel->jupyter) (0.2.2)
+Requirement already satisfied: fqdn in d:\code\ibmsb\.venv\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (1.5.1)
+Requirement already satisfied: isoduration in d:\code\ibmsb\.venv\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (20.11.0)
+Requirement already satisfied: jsonpointer>1.13 in d:\code\ibmsb\.venv\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (3.0.0)
+Requirement already satisfied: uri-template in d:\code\ibmsb\.venv\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (1.3.0)
+Requirement already satisfied: webcolors>=1.11 in d:\code\ibmsb\.venv\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (24.6.0)
+Requirement already satisfied: cffi>=1.0.1 in d:\code\ibmsb\.venv\lib\site-packages (from argon2-cffi-bindings->argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->notebook->jupyter) (1.16.0)
+Requirement already satisfied: pycparser in d:\code\ibmsb\.venv\lib\site-packages (from cffi>=1.0.1->argon2-cffi-bindings->argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->notebook->jupyter) (2.22)
+Requirement already satisfied: arrow>=0.15.0 in d:\code\ibmsb\.venv\lib\site-packages (from isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (1.3.0)
+Requirement already satisfied: types-python-dateutil>=2.8.10 in d:\code\ibmsb\.venv\lib\site-packages (from arrow>=0.15.0->isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->notebook->jupyter) (2.9.0.20240316)
+Downloading jupyter-1.0.0-py2.py3-none-any.whl (2.7 kB)
+Downloading ipywidgets-8.1.3-py3-none-any.whl (139 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 139.4/139.4 kB 4.2 MB/s eta 0:00:00
+Downloading jupyter_console-6.6.3-py3-none-any.whl (24 kB)
+Downloading qtconsole-5.5.2-py3-none-any.whl (123 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.4/123.4 kB 7.1 MB/s eta 0:00:00
+Downloading jupyterlab_widgets-3.0.11-py3-none-any.whl (214 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 214.4/214.4 kB 12.8 MB/s eta 0:00:00
+Downloading QtPy-2.4.1-py3-none-any.whl (93 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 93.5/93.5 kB ? eta 0:00:00
+Downloading widgetsnbextension-4.0.11-py3-none-any.whl (2.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 25.0 MB/s eta 0:00:00
+Installing collected packages: widgetsnbextension, qtpy, jupyterlab-widgets, ipywidgets, qtconsole, jupyter-console, jupyter
+Successfully installed ipywidgets-8.1.3 jupyter-1.0.0 jupyter-console-6.6.3 jupyterlab-widgets-3.0.11 qtconsole-5.5.2 qtpy-2.4.1 widgetsnbextension-4.0.11
+
+[notice] A new release of pip is available: 24.1.1 -> 24.1.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+</details>
+
 #### JuypterLab
 
 ```python
+
+
 pip install jupyterlab
 
 # Launch 
@@ -389,6 +525,38 @@ To access the notebook, open this file in a browser:
 
 ```python
 pip install jedi-language-server
+
+```
+
+##### 6.3 List current kernels
+
+```python
+jupyter kernelspec list
+
+```
+
+#### Jupyter Kernelspec
+
+```plaintext
+jupyter kernelspec
+No subcommand specified. Must specify one of: ['list', 'install', 'uninstall', 'remove', 'install-self', 'provisioners']  
+
+Manage Jupyter kernel specifications.
+
+Subcommands
+===========
+Subcommands are launched as `jupyter kernelspec cmd [args]`. For information on
+using subcommand 'cmd', do: `jupyter kernelspec cmd -h`.
+
+list
+    List installed kernel specifications.
+install
+    Install a kernel specification directory.
+uninstall
+    Alias for remove
+remove
+    Remove one or more Jupyter kernelspecs by name.
+    List available provisioners for use in kernel specifications.
 
 ```
 

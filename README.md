@@ -1,4 +1,10 @@
-![BLOG LinkedInProgramme of ArtificialIntelligence](./assets/BLOG_LinkedInProgramme-of-ArtificialIntelligence.png "Banner - BLOG - LinkedIn: Programme of ArtificialIntelligence")
+[![BLOG LinkedInProgramme of ArtificialIntelligence](./assets/BLOG_LinkedInProgramme-of-ArtificialIntelligence.png)](https://skillsbuild.org/ "IBM's SkillsBuild: Programme for Artifical Intelligence | 2024. 10 Week Cohort: By Invitation for Partnering Organisations")
+<center>
+  <a href="https://www.credly.com/users/charles-j-fowler" target="_blank">
+    <img src="https://img.shields.io/badge/Credly.com-Charles%20J.%20Fowler's%20Accreditations-0072C6?logo=credly&logoColor=white" 
+         alt="Credly: Charles J. Fowler (Profile)">
+  </a>
+</center>
 
 # Programme for Artifical Intelligence 2024 | IBM SkillsBuild
 
@@ -6,27 +12,41 @@
 
 ## Learning Journey 
 
-I wrote a blog on LinkedIn outline the skills and [Credly accredited badges](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/tree/main#credly) outlining the accomplishments of the coursework. Below is the top level descriptions from IBM SkillsBuild courseware modules' outlines, hereto replicated in fair use for in educational use, to provide further context to these skills and for portfolio purposes of this repository.
+I wrote a [blog](#blog-a-learners-journey) on LinkedIn and highlighted the [Credly accredited badges](#credly); that outlined the accomplishments of the coursework. Below is the top level descriptions from IBM SkillsBuild courseware modules' outlines, hereto replicated in fair use for in educational use, to provide further context to these skills and for portfolio purposes of this repository.
 
-- Access to is granted by invitation via IBM's educational partners.
+There were also guided projects in [Embedable AI](#embeddable-ai) and a [final gradable Project](#final-project). This Programme conculsion was celebrated at a Closing Ceremony (September xx, 2024). <sup>[Duration: <ins>3 Months</ins>]</sup>
+
+- Access to is granted by invitation only via IBM's educational partners.
 - Visit [SkillsBuild: https://skillsbuild.org/](https://skillsbuild.org/ )
   - High school & College students and educators
   - Adult Learners
   - Organisation.
 - [**Contact** SkillsBuild](https://skillsbuild.org/contact)
 
+### Blog: A Learners Journey
+
+Have a read on my learners journey, as a overview and as a portfolio artefact: [here]().
+
 ## Live Technical Sessions Workbooks
+
+[![LinkedIn](https://img.shields.io/badge/🌲Marty%20Bradley-LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/martybradley/ "@🌲Marty Bradley @Linkedin.com")
 
 - All were live Instructor Lead Technical sessions.
 - This repository is a collection of of these sessions and their code examples using Python and Juypter notebooks.
-- This demonstrates my understanding of these technologoes, approaches and the application of these labs.
+- The remote compute platform was Google CoLabs.
+- This demonstrates my understanding of these technologies, approaches and the application of these labs.
 
-See [`Sessions.md`](./Sessions.md "IBM Build Programme for AI - Colab - Sessions") for further details.
+See [`Sessions.md`](./Sessions.md "IBM Build Programme for AI - Colab - Sessions") for further higher level details <sup><i>(audience: all)</i></sup>; click on each session below for a closer inspection per each technical sessions notebook <sup><i>(audience: engineering)</i></sup>.
 
-1. `Session 1`: *Python Basics.* **(2024.06.19)** 
-2. `Session 2`: *Machine Learning Models and Methodologies Fundamentals. | (Unsupervised Learning)* **(2024.07.02)**
-3. `Session 3`: *Generative AI Lab.* **(2024.07.16)**
-4. `Session 4`:
+1. [`Session 1`](./notebooks-labs/Session1.ipynb): *Python Basics.* **(2024.06.19)** 
+2. [`Session 2`](./notebooks-labs/Session2.ipynb): *Machine Learning Models and Methodologies Fundamentals. | (Unsupervised Learning)* **(2024.07.02)**
+3. `Session 3`: *Generative AI Lab.* **(2024.07.16)**: 
+    - [3.1 VAE]((./notebooks-labs/Session3_FineTuning_BERTandGPT.ipynb)) 
+    - [3.2 Tuning Transformers](./notebooks-labs/Session3_FineTuning_BERTandGPT.ipynb)
+4. `Session 4`: *Embeddable AI Lab.* **(2024.07.29)**
+5. `Session 5`: *.* **(2024.08.dd)**
+
+- [All Notebooks]((./notebooks-labs))
 
 ## Coursework Modules
 
@@ -38,13 +58,8 @@ Three key modules:
 
 Two projectworks modules:
 
-5. **Embeddable AI**
-6. **Final Project**
-
-<br>
-
-- <small><sup>1</sup> 1x Credly badge.</small>
-- <small><sup>2</sup> 5x Credly badges.</small>
+4. **Embeddable AI**
+4. **Final Project**
 
 > <center> <hr> <center>
 
@@ -103,7 +118,7 @@ Two projectworks modules:
 
 ---
   
-#### [![MachineLearningTools](./assets/machine-learning-methods-and-tools50px.png)](https://www.credly.com/go/NIcXkcMR "Verify Credly.com: Machine Learning Methods and Tools") i. Machine Learning Methods and Tools <sup>4</sup>
+#### [![MachineLearningTools](./assets/machine-learning-methods-and-tools50px.png)](https://www.credly.com/go/NIcXkcMR "Verify Credly.com: Machine Learning Methods and Tools") i. Machine Learning Methods and Tools <sup>2</sup>
 
 > Undesrstand about the significance, applicability, and evolution of machine learning.
 > - Discover how computers learn without being explicitly programmed and
@@ -111,27 +126,27 @@ Two projectworks modules:
 
 > Understand the evolution of machine learning, tracing its roots to its current form.
 
-#### [![DataAnalytics](./assets/data-analytics-for-machine-learning50px.png)](https://www.credly.com/go/Kcoadh4s "Verify Credly.com: Data Analytics for Machine Learning") ii. Data Analytics for Machine Learning <sup>5</sup>
+#### [![DataAnalytics](./assets/data-analytics-for-machine-learning50px.png)](https://www.credly.com/go/Kcoadh4s "Verify Credly.com: Data Analytics for Machine Learning") ii. Data Analytics for Machine Learning <sup>3</sup>
 
 > Understand data exploration and how data scientists understand a data set through analysis and visualization.
 > - Explore the steps of data preprocessing and discover challenges with data such as inconsistent formats, outliers, duplicates, and outdated data.
 > - And about bias in machine learning and how to mitigate biases using various solutions to ensure fairness in data analysis.
 
-#### [![SupervisedLearning](./assets/supervised-learning-methods50px.png)](https://www.credly.com/go/X6duguki "Verify Credly.com: Supervised Learning Methods") iii. Supervised Learning Methods <sup>6</sup>
+#### [![SupervisedLearning](./assets/supervised-learning-methods50px.png)](https://www.credly.com/go/X6duguki "Verify Credly.com: Supervised Learning Methods") iii. Supervised Learning Methods <sup>4</sup>
 
 > Understand the fundamental concepts that make supervised learning an indispensable part of machine learning
 > - Discover how these models transform raw data into insightful predictions and decisions. 
 > - Explore a range of algorithms, such as linear regression, to advanced techniques, such as support vector machines. 
 > - And about decision trees, random forests, and K-nearest neighbors.
 
-#### [![NLP](./assets/natural-language-processing50px.png)]( https://www.credly.com/go/n0LiwX4h "Verify Credly.com: Natural Language Processing") iv. Natural Language Processing <sup>7</sup>
+#### [![NLP](./assets/natural-language-processing50px.png)]( https://www.credly.com/go/n0LiwX4h "Verify Credly.com: Natural Language Processing") iv. Natural Language Processing <sup>5</sup>
 
 >  Understand natural language processing (NLP) and its role in language understanding, sentiment analysis, and advanced text generation. 
 > - Discover how NLP systems are designed to interpret human language, extract sentiments from textual data, and even generate coherent sentences.
 > - And the relationship between natural language understanding (NLU) and natural language generation (NLG).
 > - And about practical NLP techniques and models that provide valuable insights into this exciting technology.
 
-#### [![NLP](./assets/unsupervised-learning-methods50px.png)](https://www.credly.com/go/QNNq9fXK "Verify Credly.com: Unsupervised Learning Methods") v. Unsupervised Learning Methods <sup>8</sup>
+#### [![NLP](./assets/unsupervised-learning-methods50px.png)](https://www.credly.com/go/QNNq9fXK "Verify Credly.com: Unsupervised Learning Methods") v. Unsupervised Learning Methods <sup>6</sup>
 
  
 
@@ -139,6 +154,8 @@ Two projectworks modules:
 > - Explore the intricacies of algorithmic complexity and its implications for computational power,
 > - Giving a clearer view of the resource considerations crucial in real-world applications.
 > - Accepting unsupervised learning's iterative nature, which emphasizes the multiple refinements/tuning required to hone a model towards its desired outcome. 
+
+> Practically explore, in live technical sessions, to create algorithms, and gain hands-on experience writing code using popular programming languages, like python and juypter notebooks.
 
 <br>
 
@@ -205,13 +222,20 @@ See [IBM Programme for AI 2024 - Final Project]() repository.
 
 IBM partners with Credly for accreditation and completion.
 
-- <sup>3</sup> [Fundamentals in Artificial Intelligence, Credly.com](https://www.credly.com/go/30wgOMpM "Credly.com: Fundamentals in Artificial Intelligence, July 8 2024")
-- <sup>4</sup> [Machine Learning Methods and Tools, Credly.com](https://www.credly.com/go/NIcXkcMR "Credly.com: Machine Learning Methods and Tools, July 8 2024")
-- <sup>5</sup> [Data Analytics for Machine Learning, Credly.com](https://www.credly.com/go/Kcoadh4s "Credly.com: Data Analytics for Machine Learning, July 8 2024")
-- <sup>6</sup> [Supervised Learning Methods, Credly.com](https://www.credly.com/go/X6duguki "Credly.com: Supervised Learning Methods, July 8 2024")
-- <sup>8</sup> [Unsupervised Learning Methods, Credly.com]( https://www.credly.com/go/n0LiwX4h "Credly.com: Unsupervised Learning Methods, July 8 2024")
-- <sup>7</sup> [Natural Language Processing, Credly.com]( https://www.credly.com/go/QNNq9fXK "Credly.com: Natural Language Processing, July 8 2024")
+- <sup>1</sup> [Fundamentals in Artificial Intelligence, Credly.com](https://www.credly.com/go/30wgOMpM "Credly.com: Fundamentals in Artificial Intelligence, July 8 2024")
+- <sup>2</sup> [Machine Learning Methods and Tools, Credly.com](https://www.credly.com/go/NIcXkcMR "Credly.com: Machine Learning Methods and Tools, July 8 2024")
+- <sup>3</sup> [Data Analytics for Machine Learning, Credly.com](https://www.credly.com/go/Kcoadh4s "Credly.com: Data Analytics for Machine Learning, July 8 2024")
+- <sup>4</sup> [Supervised Learning Methods, Credly.com](https://www.credly.com/go/X6duguki "Credly.com: Supervised Learning Methods, July 8 2024")
+- <sup>5</sup> [Unsupervised Learning Methods, Credly.com]( https://www.credly.com/go/n0LiwX4h "Credly.com: Unsupervised Learning Methods, July 8 2024")
+- <sup>6</sup> [Natural Language Processing, Credly.com]( https://www.credly.com/go/QNNq9fXK "Credly.com: Natural Language Processing, July 8 2024")
 
+### Sources
+
+The [source notebooks](./notebooks-labs) originally come from the course instructor 
+
+[![Contact](https://img.shields.io/badge/Author-Marty%20Bradly-0077B5?logo=internet-explorer&logoColor=white)](https://www.evergreen-ai.com/about "Contact Marty @evergreen-ai.com/about") <sup>|</sup> [![LinkedIn](https://img.shields.io/badge/🌲Marty%20Bradley-LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/martybradley/ "@🌲Marty Bradley @Linkedin.com") <sup>|</sup> [![LinkedIn](https://img.shields.io/badge/Marty916-GitHub-0077B5?logo=GitHub&logoColor=white)](https://github.com/marty916 "@Marty916 @GitHub, Last Accessed: July 2024")
+
+- [AI-Training-Colab-Notebooks/IBM-SkillsBuild-Program-in-Artificial-Intelligence](https://github.com/marty916/AI-Training-Colab-Notebooks/tree/main/IBM-SkillsBuild-Program-in-Artificial-Intelligence "@Marty916 @GitHub.com, Last Accessed: July 206") | [Commits](https://github.com/marty916/AI-Training-Colab-Notebooks/commits/main/IBM-SkillsBuild-Program-in-Artificial-Intelligence)
 
 ## Author
 
