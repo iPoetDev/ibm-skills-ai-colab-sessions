@@ -48,7 +48,7 @@ body:
     id: repo-location
     attributes:
       label: Location
-      description: The path to the documentation file.
+      description: GitHub artefact or feature where the documentation is located.
       options:
         - Markdown
         - Templates
@@ -91,5 +91,14 @@ body:
       label: Additional Information
       description: Provide any additional context or information about your request.
       placeholder: Describe your request here.
+    validations:
+      required: false
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources and References
+      description: Provide sources, credits, AI usage and references, if applicable. Harvard referencing style.
+      placeholder: "- <sub><ins>1</ins></sub> Name (Date). [Title](). Last Access: mm yyyy"
     validations:
       required: false
