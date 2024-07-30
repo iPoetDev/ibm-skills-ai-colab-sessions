@@ -76,6 +76,21 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: ai-generation
+    attributes:
+      label: AI Generation
+      description: Use of AI generation.
+      options:
+        - None
+        - Ideation
+        - Documentation
+        - Code
+        - Code and Documention
+      default: 0  
+    validations:
+      required: true
+
   - type: textarea
     id: rfc-outline
     attributes:
@@ -100,5 +115,6 @@ body:
       label: Sources and References
       description: Provide sources, credits, AI usage and references, if applicable. Harvard referencing style.
       placeholder: "- <sub><ins>1</ins></sub> Name (Date). [Title](). Last Access: mm yyyy"
+      value: "- <sub><ins>1</ins></sub> Name (Date). [Title](). Last Access: mm yyyy <sup>COPY</sup>"
     validations:
       required: false
