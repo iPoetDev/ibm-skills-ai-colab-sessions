@@ -82,7 +82,7 @@ body:
       label: AI Generation
       description: Use of AI generation.
       options:
-        - None
+        - Not applicable
         - Ideation
         - Documentation
         - Code
