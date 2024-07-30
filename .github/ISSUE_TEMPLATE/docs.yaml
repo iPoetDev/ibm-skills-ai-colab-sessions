@@ -49,7 +49,7 @@ body:
     attributes:
       label: Location
       description: The path to the documentation file.
-      option:
+      options:
         - Markdown
         - Templates
         - Projects
