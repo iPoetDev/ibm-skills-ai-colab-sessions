@@ -1,0 +1,95 @@
+name: Documentation Change Request
+
+description: Submit a request for changes or updates to the documentation.
+
+title: "[Docs]: "
+
+labels: ["docs", "requestForChange"]
+
+body:
+  - type: input
+    id: docs-context
+    attributes:
+      label: Docs Context
+      description: The path to the documentation file.
+      options:
+        - Getting Started
+        - Requirements
+        - Installation
+        - Configuration
+        - Usage
+        - Troubleshooting
+        - Reference
+        - Wiki
+        - Contributing
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: file-name
+    attributes:
+      label: File Name
+      description: The name of the documentation file you are referencing.
+      placeholder: Enter the file name here.
+    validations:
+      required: true
+
+  - type: input
+    id: file-path
+    attributes:
+      label: File Path
+      description: The path to the documentation file.
+      placeholder: Enter the file path here.
+    validations:
+      required: true
+
+  - type: input
+    id: repo-location
+    attributes:
+      label: Location
+      description: The path to the documentation file.
+      option:
+        - Markdown
+        - Templates
+        - Projects
+        - Wiki
+        - Discussions
+    validations:
+      required: true
+
+  - type: dropdown
+    id: change-type
+    attributes:
+      label: Type of Change
+      description: Select the type of change you are requesting.
+      options:
+        - Plan
+        - New/Missing
+        - Update Content
+        - Proofing Style
+        - Validate
+        - AI Correction
+        - Review
+        - Deprecate
+        - Removal
+    validations:
+      required: true
+
+  - type: input
+    id: rfc-outline
+    attributes:
+      label: RFC Outline
+      description: Outline, and description, of the request for change. 
+      placeholder: The request for change
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Provide any additional context or information about your request.
+      placeholder: Describe your request here.
+    validations:
+      required: false
