@@ -1,20 +1,17 @@
-# https://github.com/citation-file-format/citation-file-format/blob/main/README.md
-# https://citation-file-format.github.io/about/
-cff-version: 1.2.0
-message: "If you use this software generally, or reuse any GitHub Issue template or User-defined documentation, particularly in the context of IBM SkillsBuild educational adult learning by project based eLearning, please cite it as below."
-abstract: "This is a Programme for Artificial Intelligence 2024, a portfolio entry by Charles J Fowler (@iPoetDev) for IBM SkillsBuild, for proof of work/skill by completion of the eLearning."
+title: ibm-skills-ai-colab-sessions
 authors:
-- family-names: "Fowler"
-  given-names: "Charles"
-title: "Programme for Artifical Intelligence 2024 | IBM SkillsBuild - A Portfolio Entry by Charles J Fowler (@iPoetDev)"
-version: 0.0.1
-# doi: xx.xxx/xxx
-date-released: 2024-07-22
-url: "https://github.com/ipoetdev/ibm-skills-ai-colab-sessions"
-preferred-citation:
-  type: generic
-  authors:
-  - family-names: "Fowler"
-    given-names: "Charles"
-  month: 7
-  year: 2024
+  - given-names: Charles
+    family-names: Fowler
+    email: ipoetdev-github-no-reply@outlook.com
+    affiliation: Developer Associate | AI Generalist
+cff-version: 1.2.0
+message: If you use this software, please cite it using the metadata from this file.
+type: software
+abstract: IBM Skills Build AI Fundamentals - Colab - Sessions
+keywords:
+  - ai
+  - colab-notebook
+  - juypter-notebook
+  - python3
+license: GPL-3.0
+repository-code: https://github.com/iPoetDev/ibm-skills-ai-colab-sessions

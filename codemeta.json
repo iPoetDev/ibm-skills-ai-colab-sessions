@@ -1,0 +1,48 @@
+{
+  "name": "ibm-skills-ai-colab-sessions",
+  "@context": "https://w3id.org/codemeta/3.0",
+  "author": [
+    {
+      "affiliation": {
+        "name": "Developer Associate | AI Generalist",
+        "type": "Organization"
+      },
+      "email": "ipoetdev-github-no-reply@outlook.com",
+      "familyName": "Fowler",
+      "id": "_:author_1",
+      "givenName": "Charles",
+      "type": "Person"
+    }
+  ],
+  "codemeta:isSourceCodeOf": {
+    "id": "Courseware | Live Technical Sessions "
+  },
+  "codeRepository": "https://github.com/iPoetDev/ibm-skills-ai-colab-sessions",
+  "dateCreated": "2024-06-19",
+  "description": "IBM Skills Build AI Fundamentals - Colab - Sessions",
+  "developmentStatus": "active",
+  "isPartOf": "Courseware | Educational Content",
+  "issueTracker": "https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/issues",
+  "keywords": [
+    "ai",
+    "colab-notebook",
+    "juypter-notebook",
+    "python3"
+  ],
+  "license": "https://spdx.org/licenses/GPL-3.0",
+  "operatingSystem": [],
+  "programmingLanguage": [
+    "Jupyter Notebook",
+    "Python 3",
+    "HuggingFace",
+    "TensorFlow",
+    "SciKit-Learn"
+  ],
+  "relatedLink": [],
+  "runtimePlatform": [],
+  "softwareRequirements": [
+    "https://colab.research.google.com/",
+    ""
+  ],
+  "type": "SoftwareSourceCode"
+}
