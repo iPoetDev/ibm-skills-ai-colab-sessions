@@ -139,6 +139,11 @@ Utilising's GitHub wiki, the technical requirements for local and remote impleme
 
 ## Projectworks
 
+Two projectworks modules:
+
+- **<u>Embeddable AI</u>**
+- **<u>Final Project</u>**
+
 ### Embeddable AI 
 
 See the public [Gist: IBM Programme for AI - Readme.md]()
@@ -167,14 +172,9 @@ See [IBM Programme for AI 2024 - Final Project - Readme](./final-project/README.
 
 Three key modules:
 
-1. **<u>Artifical Intelligence Fundamentals</u>** <sup>1</sup>
-2. **<u>Foundations in Building Machine Learning Models</u>** <sup>2</sup>
-3. **<u>Introduction of Generative AI</u>**
-
-Two projectworks modules:
-
-4. **Embeddable AI**
-4. **Final Project**
+- **<u>Artifical Intelligence Fundamentals</u>** <sup>1</sup>
+- **<u>Foundations in Building Machine Learning Models</u>** <sup>2</sup>
+- **<u>Introduction of Generative AI</u>**
 
 > <center> <hr> <center>
 
@@ -319,6 +319,14 @@ Two projectworks modules:
 ```
 
 <small><strong>Project Structure</strong></small> : [ibm-skills-ai-colab-sessions](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/tree/main)
+
+### Issue Tracking
+
+- [Create a ticket](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/issues/new/choose "Select an New Issue").
+
+- [Check the open issues](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/issues "Open Issues").
+
+<br>
 
 ---
 > <sup>[Back to Top](#table-of-contents)</sup>
