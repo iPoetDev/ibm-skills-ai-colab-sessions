@@ -6,6 +6,7 @@
   </a>
 </center>
 
+
 # Programme for Artifical Intelligence 2024 | IBM SkillsBuild
 
 > **<small><sub><ins>BADGES:</ins></sub></small>** <br> <sub>&nbsp;</sup><br>[![](https://img.shields.io/badge/IBM-SkillsBuild-002cce?logo=ibm&logoColor=white)](https://skillsbuild.org/ "IBM SkillsBuild: Skills based eLearning from IBM: inclusive of IBM Cloud, IBM WatsonX Studio, Artifical Intelligence, Machine Learning, Data Science, Generative AI, Python, Jupyter Notebooks")  <sup>|</sup> 
@@ -19,8 +20,6 @@
  [![Pandas](https://img.shields.io/badge/Pandas-2.2.2-00002e?color=00002e&logo=pandas&logoColor=white)](https://pandas.pydata.org/ "Pandas: Website: Data Structures, Data Processing") <sup>|</sup>
  [![NumPy](https://img.shields.io/badge/NumPy-2.0-4dabcf?color=4dabcf&logo=numpy&logoColor=4d77cf)](https://numpy.org/ "NumPy: Website: Numerical, Scientic Compute") <sup>|</sup>
  [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.9.1-65baea?color=65baea&logo=matplotlib&logoColor=white)](https://matplotlib.org/stable/ "MatplotLib: Website: Data Visualisation")<br><br>
-
-
 
 ## Learning Journey 
 
@@ -39,9 +38,59 @@ There were also guided projects in [Embedable AI](#embeddable-ai) and a [final g
 
 Have a read on my learners journey, as a overview and as a portfolio artefact: [here]().
 
-> <hr>
+<br>
 
-## Live Technical Sessions Workbooks
+---
+> .
+---
+
+## Table of Contents
+
+- [Learning Journey](#learning-journey "")
+  - [Blog: A Learners Journey](#blog-a-learners-journey "")
+- [Live Technical Sessions]( "") 
+  - [Getting Started](#getting-started "Quick Start: Launch Notebooks in CoLab") 
+  - [Workbooks](#workbooks "Session Workbooks: Jupyter Notebooks")
+  - [Approaches](#approaches "?")
+  - [Technical Wiki](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/wiki "GitHub Wiki: ibm-skills-ai-colab-sessions")
+- [Projectworks](#projectworks "")
+  - [Embeddable AI](#embeddable-ai "")
+  - [Final Project: Credit Card Fraud](#final-project "")
+- [Courseworks](#coursework-modules "")
+  - [Artifical Intelligence Fundamentals](#1-artifical-intelligence-fundamentals-1 "")
+  - [Foundations in Building Machine Learning Models](#2-foundations-in-building-machine-learning-models "")
+  - [Introduction of Generative AI](#3-introduction-of-generative-ai "")  
+- [Repository](#repository "")
+  - [Issue Tracking](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/issues "")
+  <!-- [Project Board]( "")
+  - [Discussions]( "") -->
+- [References](#references "")
+- [Author](#author "")
+- [ChangeLog](#changelog "")
+
+<br>
+
+---
+> .
+---
+
+
+## Live Technical Sessions
+
+### Getting Started
+
+> #### *<ins>Quick Start</ins>*
+> To run these repository notebooks, with zero configuration, go to [Quick Start](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/wiki/Quick-Start)<br><br>
+
+
+For each Colab session, launch each notebook directly:
+
+1. `Session 1`:<sub> [![GoogleColab: Python](https://img.shields.io/badge/CoLab-Python%20Fundamentals-0e80c1?logo=googlecolab&logoColor=d39816)](https://colab.research.google.com/ "Google Colab: Session 1: Python Basics")</sub>
+2. `Session 2`:<sub> [![GoogleColab: Unsupervised Learning](https://img.shields.io/badge/CoLab-Unsupervised%20Learning-0e80c1?logo=googlecolab&logoColor=d39816)](https://colab.research.google.com/github/iPoetDev/ibm-skills-ai-colab-sessions/blob/main/notebooks-labs/Session2.ipynb "Google Colab: Session 2: Machine Learning: Unsupervised")</sub>
+3. `Session 3`:<br> 3.1 [![GoogleColab: GenAi: VAE](https://img.shields.io/badge/CoLab-Session%203.1:%20Auto--Encoders-0e80c1?logo=googlecolab&logoColor=d39816)](https://colab.research.google.com/github/iPoetDev/ibm-skills-ai-colab-sessions/blob/main/notebooks-labs/Session3_VAE.ipynb "Google Colab: Session 3.1: Variation AutoEncoders") <br> 3.2 [![GoogleColab: GenAI: Transformers](https://img.shields.io/badge/CoLab-Session%203.2:%20Transformers-0e80c1?logo=googlecolab&logoColor=d39816)](https://colab.research.google.com/github/iPoetDev/ibm-skills-ai-colab-sessions/blob/main/notebooks-labs/Session3_FineTuning_BERTandGPT.ipynb#scrollTo=Wyyh4uo1sxrX "Google Colab: Session 3.2: Gen AI: Tuning Transformers")</sub>
+4. `Session 4`:<sub> [![GoogleColab: Embeddable AI](https://img.shields.io/badge/CoLab-Embeddable--AI-0e80c1?logo=googlecolab&logoColor=d39816)](https://colab.research.google.com/github/iPoetDev/ibm-skills-ai-colab-sessions/blob/main/notebooks-labs/Session4_OpenAI_Text_Completion.ipynb "Google Colab: Session 4: Embeddable AI.")</sub>
+
+### Workbooks
 
 [![LinkedIn](https://img.shields.io/badge/🌲Marty%20Bradley-LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/martybradley/ "@🌲Marty Bradley @Linkedin.com") <sup>|</sup> [![GoogleColab](https://img.shields.io/badge/Google-CoLab-0e80c1?logo=googlecolab&logoColor=d39816)](https://colab.research.google.com/ "Free Compute Credits across CPU/GPU")
 
@@ -62,10 +111,48 @@ See [`Sessions.md`](./Sessions.md "IBM Build Programme for AI - Colab - Sessions
 
 - [All Notebooks]((./notebooks-labs))
 
-### Technologies and Approaches
+### Approaches
 
-- **Technology**: <ins><ins>`#python`</ins> &nbsp;&nbsp;|&nbsp;&nbsp; <ins>`#jupyter-notebooks`<ins> &nbsp;&nbsp;|&nbsp;&nbsp; <ins>`#huggingface`<ins> &nbsp;&nbsp;|&nbsp;&nbsp; <ins>`#tensorflow`<ins> &nbsp;&nbsp;|&nbsp;&nbsp; <ins>`#scikit-learn`<ins> &nbsp;&nbsp;|&nbsp;&nbsp; <ins>`#numpy`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#pandas`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#matplotlib`<br><br>
 - **Approaches**: <ins>`#unsupervised-learning`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#generative-ai`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#regession`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#classifications`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#clustering`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#recommender-systems`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#transformers`<ins>&nbsp;&nbsp;|&nbsp;&nbsp;<ins>`#varational-auto-encoders`
+
+### Technical Wiki
+
+Utilising's GitHub wiki, the technical requirements for local and remote implementations of these notebooks and associated machine learning frameworks, APIs, and libraries; have been specified. 
+
+- [Wiki](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/wiki "")
+- [Quick Start](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/wiki/Quick-Start "")
+- [Core Requirements](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/wiki/Core-Requirements "")
+- [Compute & Hardware](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/wiki/Compute-Requirements "")
+- [Cloud & Remote](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/wiki/Remote-Requirements "")
+- [Local Resources](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/wiki/Local-Requirements "")
+- [Notebook Requirements](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/wiki/Notebook-Requirements "")
+
+
+<br>
+
+---
+> .
+---
+
+
+## Projectworks
+
+### Embeddable AI 
+
+See the public [Gist: IBM Programme for AI - Readme.md]()
+
+> To create applications using: OpenAI, IBM Cloud® Code Engine and IBM Watson. With hands-on learning, discover how to integrate technology like Text-to-Speech, Speech-to-Text, and Natural Language Process (NLP) into your own applications. 
+
+These are a set of guided projects with premade solutions.
+
+1. Create a Voice Assistant with OpenAI's GPT-3 and IBM Watson <sup>(Chatbot, Beginner)</sup>
+2. Build a Brand Sentiment Analysis Extension for Twitter <sup>(Browser Extension, Beginner)</sup>
+3. Improve Customer Support with AI-Powered Services <sup>(Web App, Intermediate)</sup>
+4. How do people feel about a product? Use AI to get the answer <sup>(Full Stack, Intermediate)</sup>
+
+### Final Project
+
+See [IBM Programme for AI 2024 - Final Project - Readme](./final-project/README.md "📂 final-project: Credit Card Fraud") 📂 sub-repo/folder.
 
 <br>
 
@@ -195,27 +282,6 @@ Two projectworks modules:
 > - As well as how gen-AI works and is applied to various industries.
 
 > Practically explore, in live technical sessions, to create algorithms, and gain hands-on experience writing code using popular programming languages, like python and juypter notebooks.
-
-<br>
-
-> <hr>
-
-## Guided Projectworks
-
-### Embeddable AI 
-
-See the public [Gist: IBM Programme for AI - Readme.md]()
-
-> To create applications using: OpenAI, IBM Cloud® Code Engine and IBM Watson. With hands-on learning, discover how to integrate technology like Text-to-Speech, Speech-to-Text, and Natural Language Process (NLP) into your own applications. 
-
-1. Create a Voice Assistant with OpenAI's GPT-3 and IBM Watson <sup>(Chatbot, Beginner)</sup>
-2. Build a Brand Sentiment Analysis Extension for Twitter <sup>(Browser Extension, Beginner)</sup>
-3. Improve Customer Support with AI-Powered Services <sup>(Web App, Intermediate)</sup>
-4. How do people feel about a product? Use AI to get the answer <sup>(Full Stack, Intermediate)</sup>
-
-### Final Project
-
-See [IBM Programme for AI 2024 - Final Project]() repository.
 
 <br>
 
