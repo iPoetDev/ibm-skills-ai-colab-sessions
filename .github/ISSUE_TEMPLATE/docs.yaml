@@ -7,7 +7,7 @@ title: "[Docs]: "
 labels: ["docs", "requestForChange"]
 
 body:
-  - type: input
+  - type: dropdown
     id: docs-context
     attributes:
       label: Docs Context
@@ -44,7 +44,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: dropdown
     id: repo-location
     attributes:
       label: Location
