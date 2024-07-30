@@ -71,8 +71,10 @@ Have a read on my learners journey, as a overview and as a portfolio artefact: [
 <br>
 
 ---
-> .
+> <sup>[Back to Top](#table-of-contents)</sup>
 ---
+
+
 
 
 ## Live Technical Sessions
@@ -131,7 +133,7 @@ Utilising's GitHub wiki, the technical requirements for local and remote impleme
 <br>
 
 ---
-> .
+> <sup>[Back to Top](#table-of-contents)</sup>
 ---
 
 
@@ -157,7 +159,7 @@ See [IBM Programme for AI 2024 - Final Project - Readme](./final-project/README.
 <br>
 
 ---
-> .
+> <sup>[Back to Top](#table-of-contents)</sup>
 ---
 
 
@@ -286,7 +288,7 @@ Two projectworks modules:
 <br>
 
 ---
-> .
+> <sup>[Back to Top](#table-of-contents)</sup>
 ---
 
 ## Repository
@@ -318,7 +320,9 @@ Two projectworks modules:
 
 <small><strong>Project Structure</strong></small> : [ibm-skills-ai-colab-sessions](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/tree/main)
 
-> <hr>
+---
+> <sup>[Back to Top](#table-of-contents)</sup>
+---
 
 ## References
 
@@ -355,3 +359,7 @@ The [source notebooks](./notebooks-labs) originally come from the course instruc
 | :--- | :--- | :--- | :--- | :--- | 
 | 2024-07-23  | 0.1 | Charles J Fowler  | Initial version created | Create  | 
 <sup>1</sup>: `YYYY-MM-DD`
+
+---
+> <sup>[Back to Top](#table-of-contents)</sup>
+---
