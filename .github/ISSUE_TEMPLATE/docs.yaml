@@ -1,8 +1,8 @@
-name: Documentation Change Request
+name: 📝 Docs Change Request
 
 description: Submit a request for changes or updates to the documentation.
 
-title: "[Docs]: "
+title: "📝 [Docs]: "
 
 labels: ["docs", "requestForChange"]
 

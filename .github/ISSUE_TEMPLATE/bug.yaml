@@ -1,8 +1,8 @@
-name: Bug Report
+name: 🐛 Bug Report
 
-description: File a bug report.
+description: File a bug report for code or techncial issues.
 
-title: "[Bug]: "
+title: "🐛 [Bug]: "
 
 labels: ["bug", "needsTriage"]
 
