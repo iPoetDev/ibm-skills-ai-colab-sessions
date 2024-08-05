@@ -2,16 +2,15 @@
 > ## IBM Skills Build AI Fundamentals - Colab - Sessions
 
 ### **Objectives**
-<center style=font-size:18px><strong><ins>A. Portfolio focused Project Based Learning</ins>
+<center style=font-size:18px><ins>A. Portfolio focused Project Based Learning</ins>
 
-<ins>B. Self Directed Configuration of VSCode and Python Locally</ins>
-</strong></center>
+<ins>[B. Self Directed Configuration of VSCode and Python Locally](#b-machine-learning-methods--approaches)</ins></center>
 
 ---
 >  ...
 ---
 
-## **<ins>A. Portfolio focused Project Based Learning</ins>**
+## **<ins>A. Sessions: Project Based Learning</ins>**
 
 *Artefacts from Live Technical Sessions in the form of*:
 
@@ -56,24 +55,36 @@
     - vi) Model Evaluation
     - vii) Predictions
     <br><br>
+- `Session 4`: OpenAI Chatout **(2024.07.16)** 
+  - [<ins>`🖇️  Session4 OpenAI Text Completion.ipynb`</ins>](./notebooks-labs/Session4_OpenAI_Text_Completion.ipynb "Folder: notebooks-labs: Session 4: Assumed GitHub as Host, Use Google Colabl as Host"): <br>
+    **CoLab** Run -> [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TZekNH-QvntOgj0ujc7PMQ27s4PQ0-qi#scrollTo=--HsA5LXTQ_y "Session 4: Google Colab: OpenAI Text Completion.ipynb")
+    - i) Install
+    - ii) Intiatiate API Key
+    - iii) Model Functions
+      - Original 
+      - Refactored
+    - vi) Examples
+    - v) Interactive Prompt
+<br>
 
 ---
->  ...
+>  <sup>[Back to Top](#ibm-skills-ai-colab-sessions) | [To Acknowledgements](#acknowledgements)</sup>
 ---
 
 
 ## **<ins>B. Machine Learning Methods & Approaches</ins>** 
 
-- `Session 2`: [Unsupervised Learning Models](./Sessions.md#1-unsupervised-learning).
+- `Session 2`: [Unsupervised Learning Models](#1-unsupervised-learning).
 - `Session 3`:
-    - 3.1 [GenAI: VAE](./Sessions.md#2-generative-ai-vae-session-3)
-    - 3.2 [GenAI: Tuning Transformers](./Sessions.md#3-generative-ai-tuning-transformers-session-3)
+    - 3.1 [GenAI: VAE](2-generative-ai-vae-session-3)
+    - 3.2 [GenAI: Tuning Transformers](#3-generative-ai-tuning-transformers-session-3)
+- `Session 4` [OpenAI Text Completion: ChatBot Simplified](#openai-chatbot-on-notebook-session-41)
 
 <center><small>Use the Jumpto buttons to launch Google Colab per Sessions' cell</small></center>
 
 > <hr>
 
-### <ins>Unsupervised Learning</ins>
+### <ins>Unsupervised Learning `Session 2`</ins>
 
 [![Session2](https://img.shields.io/badge/Session2--Notebook-Launch-5c5c5c?labelColor=3499cd&logo=googlecolab&logoColor=d39816)](https://colab.research.google.com/github/iPoetDev/ibm-skills-ai-colab-sessions/blob/main/notebooks-labs/Session2.ipynb "Open Session 2.ipynb on colab.google.com")
 
@@ -105,7 +116,10 @@ MatplotLibs is particularly useful for data scientists, engineers, and anyone wh
 
 [![Session2 Classification](https://img.shields.io/badge/Session2--Logistic%20Regression-Jumpto-5c5c5c?labelColor=3499cd&logo=googlecolab&logoColor=d39816)](https://colab.research.google.com/github/iPoetDev/ibm-skills-ai-colab-sessions/blob/main/notebooks-labs/Session2.ipynb#scrollTo=ipSw8bcdxILh "Open Session 2.ipynb on colab.google.com at Logistic Regression")
 
-> <hr>
+---
+>  <sup>[Back to Top](#ibm-skills-ai-colab-sessions) | [To Acknowledgements](#acknowledgements)</sup>
+---
+
 
 ### *2️⃣ Classification*
 
@@ -132,8 +146,11 @@ SciKit_Learn (`sklearn`) provides a wide range of algorithms for classification,
 > Logistic Regression models, as a type of linear models, are used as a common workflow in classification tasks (like binary classification) where you want to estimate the likelihood of a data point belonging to different categories.
 
 [![Session2 Classification](https://img.shields.io/badge/Session2--Logistic%20Regression-Jumpto-5c5c5c?labelColor=3499cd&logo=googlecolab&logoColor=d39816)](https://colab.research.google.com/github/iPoetDev/ibm-skills-ai-colab-sessions/blob/main/notebooks-labs/Session2.ipynb#scrollTo=ipSw8bcdxILh "Open Session 2.ipynb on colab.google.com at Logistic Regression")
+<br>
 
-> <hr>
+---
+>  <sup>[Back to Top](#ibm-skills-ai-colab-sessions) | [To Acknowledgements](#acknowledgements)</sup>
+---
 
 ### *3️⃣ Clustering*
 
@@ -178,8 +195,11 @@ It builds a cluster hierarchy in the form of a tree-like structure called a dend
 It operates by defining clusters as areas where a minimum number of points (minPts) exist within a specified radius (epsilon) around each point, allowing it to detect clusters of arbitrary shapes and effectively handle noise in datasets
 
 [![DBSCAN Clustering API](https://img.shields.io/badge/SciKit-DBSCAN%20API-3499cd?logo=scikit-learn&logoColor=f89939)](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html "SciKit-Learn: sklearn.cluster API documentation: DBSCAN") <sup>|</sup> [![DBSCAN User Guide](https://img.shields.io/badge/SciKit-DBSCAN%20GUIDE-3499cd?logo=scikit-learn&logoColor=f89939)](https://scikit-learn.org/stable/modules/clustering.html#dbscan "SciKit-Learn: sklearn.cluster User Guide: DBSCAN")
+<br>
 
-> <hr>
+---
+>  <sup>[Back to Top](#ibm-skills-ai-colab-sessions) | [To Acknowledgements](#acknowledgements)</sup>
+---
 
 ### *4️⃣ Recommender Systems*
 
@@ -228,9 +248,11 @@ The following equation represents the function `\( k(x, y) \`):
 
 [![Pairwise Metrics](https://img.shields.io/badge/SciKit-Metrics--PairWise%20Cosine%20Kernel-3499cd?logo=scikit-learn&logoColor=f89939)](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html#sklearn.metrics.pairwise.cosine_similarity "SciKit-Learn: sklearn.metrics.pairwise API documentation: Cosine Kernel/Similarity") <sup>|</sup> [![Cosine Kernel User Guide](https://img.shields.io/badge/SciKit-Metrics--Cosine%20Kernel%20GUIDE-3499cd?logo=scikit-learn&logoColor=f89939)](https://scikit-learn.org/stable/modules/metrics.html#cosine-similarity "SciKit-Learn: sklearn.metrics.pairwise User Guide: Cosine Kernel/Similarity")
 <br><br>
-> <hr>
-> <hr>
-<br><br>
+
+---
+>  <sup>[Back to Top](#ibm-skills-ai-colab-sessions) | [To Acknowledgements](#acknowledgements)</sup>
+---
+
 
 ### <ins>Generative AI `Session 3`</ins>
 
@@ -278,9 +300,10 @@ These sessions needs to be run on <small>[![GoogleColab](https://img.shields.io/
 [![Keras.io](https://img.shields.io/badge/Keras.io-Website-d00000?logo=tensorflow&logoColor=white)](https://keras.io/ "Keras: Keras.io") <sup>|</sup> [![TensorFlow Keras](https://img.shields.io/badge/TensorFlow%20Keras-Guide-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/guide/keras "High Level API for TensorFlow's older Keras") <sup>|</sup> [![Keras.io](https://img.shields.io/badge/Keras.io-Get%20Started-d00000?logo=keras&logoColor=white)](https://keras.io/getting_started/ "Keras: Get Started Guide") <sup>|</sup> [![Keras.io](https://img.shields.io/badge/Keras.io-GitHub-d00000?logo=keras&logoColor=white)](https://github.com/keras-team/keras "Keras: GitHub.com") <sup>|</sup> [![Keras.io](https://img.shields.io/badge/Keras.io-PyPI-d00000?logo=keras&logoColor=white)](https://pypi.org/project/keras/ "Keras: PyPi.org")
 
 <br><br>
-> <hr>
-> <hr>
-<br><br>
+
+---
+>  <sup>[Back to Top](#ibm-skills-ai-colab-sessions) | [To Acknowledgements](#acknowledgements)</sup>
+---
 
 ### 2️⃣ <ins>Generative AI: Tuning Transformers: `Session 3.2`</ins>
 
@@ -334,32 +357,80 @@ These models can be applied on:
 <br>
 
 ---
-> <center>...</center>
+>  <sup>[Back to Top](#ibm-skills-ai-colab-sessions) | [To Acknowledgements](#acknowledgements)</sup>
 ---
 
-## References
+### <ins>OpenAI Text Completion | ChatBot `Session 4`</ins>
 
-### IBM SkillsBuild
+These sessions needs to be run on <sub>[![GoogleColab](https://img.shields.io/badge/Google-CoLab-0e80c1?logo=googlecolab&logoColor=d39816)](https://colab.research.google.com/ "Free Compute Credits across CPU/GPU")</sub> if local system compute are not configured or specified for GPU loads.
+
+> #### **Objective**: *Understand the theory and hands-on implementation of *:
+> - *1️⃣ Embedded AI- Hands-on Chatbots*<br> 
+>   - Embedded AI- Hands-on Chatbots using Python, Jupyter Notebook.
+>   - Integrate the chatbot with OpenAI's GPT-4-o model to give it a high level of intelligence and the ability to understand and respond to user requests
+> - *2️⃣ Embedded AI - IBM Watson Speach to Text / Text-Speech*
+>   - Embedded AI- Hands-on Chatbots using Python, Flask, HTML, CSS, and Javascript.
+>   - Implement IBM Watson Speech-to-Text functionality to allow the chatbot to understand voice input from users.
+>   - Implement IBM Watson Text-to-Speech functionality to allow the chatbot to communicate with users through voice output.<br><br>
+
+### 1️⃣ <ins>OpenAI ChatBot on Notebook: `Session 4.1`</ins>
+
+[![Session 4.1 OpenAI Chatbot Notebook](https://img.shields.io/badge/Session4.1%20OpenAI%20ChatBot-Jumpto-5c5c5c?labelColor=3499cd&logo=googlecolab&logoColor=d39816)](https://colab.research.google.com/github/iPoetDev/ibm-skills-ai-colab-sessions/blob/main/notebooks-labs/Session4_OpenAI_Text_Completion.ipynb#scrollTo=-MuVZBIxWOzJ "Open Session4_OpenAI_Text_Completion.ipynbon colab.google.com")
+
+> OpenAI is a leading AI research company that offers powerful models for text completion and chatbot development.
+>> Its GPT models excel at understanding and generating human-like text, enabling applications like:
+>> - **Text Completion**: Predicting and suggesting subsequent words in a sentence or paragraph.
+>> - **Chatbots**: Building interactive conversational agents that can engage in natural, dynamic dialogue with users<br><br>
+
+- OpenAI provides APIs and tools for easy integration of these capabilities into various platforms and applications.<br>
+  - [x] OpenAI API registration/login and Freeemium Subscription 💳🔐
+
+[![OpenAI](https://img.shields.io/badge/OpenAI-Website-412991?logo=openai&logoColor=white)](https://openai.com) <sup>|</sup> [![OpenAI](https://img.shields.io/badge/OpenAI_API-Platform_Keys_(💳🔐)-412991?logo=openai&logoColor=white)](https://platform.openai.com/api-keys) <sup>|</sup> [![OpenAI API](https://img.shields.io/badge/OpenAI_API-Reference-412991?logo=openai&logoColor=white)](https://platform.openai.com/docs/api-reference) <sup>|</sup> [![GitHub](https://img.shields.io/badge/OpenAI-GitHub-181717?logo=github&logoColor=white)](https://github.com/openai) <sup>|</sup> [![PyPI](https://img.shields.io/badge/OpenAI-PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/openai/)
+
+### 2️⃣ <ins>Embedded AI - IBM Watson Speach to Text (STT) / Text-Speech (TTS): `Session 4.2`</ins>
+
+- For a live session, this was not covered, due to the extant requirements of IBM WatsonX.ai registration, credit card approvals and multiple Entitlements and Trial License; as well as local access/technical configuration of each of these SST and TTS models.
+  - [x] IBM ID/Cloud account registration/login required - 🔐 (** elective)
+
+- This is guided project is optional to the requirments of accrditation completion and will be updated here in an external (private) repository. Access by demand. WIP.  
+
+[![IBM WatsonX.ai](https://img.shields.io/badge/IBM-WatsonX.ai_(🔐**)-052FAD?logo=ibm&logoColor=white)](https://www.ibm.com/watsonx) <sup>|</sup> [![Speech to Text Trial](https://img.shields.io/badge/IBM-Speech%20to%20Text%20Trial_(🔐)-052FAD?logo=ibm&logoColor=white)](https://www.ibm.com/cloud/watson-speech-to-text) <sup>|</sup> [![Text to Speech Trial](https://img.shields.io/badge/IBM-Text%20to%20Speech%20Triall_(🔐)-052FAD?logo=ibm&logoColor=white)](https://www.ibm.com/cloud/watson-text-to-speech) <sup>|</sup> [![GitHub](https://img.shields.io/badge/IBM-GitHub_SST-181717?logo=github&logoColor=white)](https://github.com/orgs/IBM/repositories?q=speech-to-text) <sup>|</sup> [![GitHub](https://img.shields.io/badge/IBM-GitHub_TTS-181717?logo=github&logoColor=white)](https://github.com/orgs/IBM/repositories?q=tts) <sup>|</sup> [![PyPI](https://img.shields.io/badge/IBM_WatsonX_Developer-PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/ibm-watson/)
+
+<br> 
+
+---
+>  <sup>[Back to Top](#ibm-skills-ai-colab-sessions)</sup>
+---
+
+## Acknowledgements
+
+### References
+
+#### IBM SkillsBuild
 
 - <sup>n</sup>
 - <sup>n</sup>
 - <sup>n</sup>
 
-### IBM Developer
+#### IBM Developer
 
 - <sup>n</sup> IBM Developer (2023-12-08) "Implement autoencoders using TensorFlow" (Accessed: July 2024); URL https://developer.ibm.com/tutorials/implement-autoencoders-using-tensorflow/  
 - <sup>n</sup>
 - <sup>n</sup>
 - <sup>n</sup>
 
-## Author
+### Author
 
 [![LinkedIn](https://img.shields.io/badge/Author-Charles%20J%20Fowler-0077B5?logo=gmail&logoColor=white)](mailto:ipoetdev-github-no-reply@outlook.com "Contact CJ on GItHub email: ipoetdev-github-no-reply@outlook.com") <sup>|</sup> [![LinkedIn](https://img.shields.io/badge/Charles%20J%20Fowler-LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://ie.linkedin.com/in/charlesjfowler "@CharlesJFowler @Linkedin.com") <sup>|</sup> [![LinkedIn](https://img.shields.io/badge/iPoetDev-GitHub-0077B5?logo=GitHub&logoColor=white)](https://github.com/ipoetdev "@iPoetDev @GitHub")
 
-## ChangeLog
+### ChangeLog
 
 | Date<sup>a</sup> | Version | Changed By | Change | Activity | 
 | :--- | :--- | :--- | :--- | :--- | 
 | 2024-07-16  | 0.1 | Charles J Fowler  | Initial version created | Create  | 
 | 2024-07-27  | 0.2 | Charles J Fowler  | Draft Portfolio version | Modify  | 
 <sup>a</sup>: `YYYY-MM-DD`
+
+---
+>  <sup>[Back to Top](#ibm-skills-ai-colab-sessions)</sup>
+---
