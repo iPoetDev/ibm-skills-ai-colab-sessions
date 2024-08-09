@@ -109,7 +109,7 @@ See [`Sessions.md`](./Sessions.md "IBM Build Programme for AI - Colab - Sessions
     - [3.1 VAE]((./notebooks-labs/Session3_FineTuning_BERTandGPT.ipynb)) 
     - [3.2 Tuning Transformers](./notebooks-labs/Session3_FineTuning_BERTandGPT.ipynb)
 4. `Session 4`: *Embeddable AI Lab.* **(2024.07.29)**
-5. `Session 5`: *.* **(2024.08.dd)**
+5. `Session 5`: *Final Project and Course Conclusion* **(2024.08.12)**
 
 - [All Notebooks]((./notebooks-labs))
 

@@ -55,7 +55,7 @@
     - vi) Model Evaluation
     - vii) Predictions
     <br><br>
-- `Session 4`: OpenAI Chatout **(2024.07.16)** 
+- `Session 4`: OpenAI Chatout **(2024.07.30)** 
   - [<ins>`🖇️  Session4 OpenAI Text Completion.ipynb`</ins>](./notebooks-labs/Session4_OpenAI_Text_Completion.ipynb "Folder: notebooks-labs: Session 4: Assumed GitHub as Host, Use Google Colabl as Host"): <br>
     **CoLab** Run -> [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TZekNH-QvntOgj0ujc7PMQ27s4PQ0-qi#scrollTo=--HsA5LXTQ_y "Session 4: Google Colab: OpenAI Text Completion.ipynb")
     - i) Install
@@ -78,7 +78,11 @@
 - `Session 3`:
     - 3.1 [GenAI: VAE](2-generative-ai-vae-session-3)
     - 3.2 [GenAI: Tuning Transformers](#3-generative-ai-tuning-transformers-session-3)
-- `Session 4` [OpenAI Text Completion: ChatBot Simplified](#openai-chatbot-on-notebook-session-41)
+- `Session 4` [Embeddable AI: ChatBot & Text Completion](#embeddable-ai--chatbot--text-completion-session-4)
+
+#### [OpenAi Issue: #7]((https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/issues/7))
+
+> - *The OpenAI API Key was not being issued due to a CORS policy, so Anthropic was switched, and the Session4 notebook was duplicated. All subsequent references will incluude Anthropic, not OpenAI, as alternative LLM provider*
 
 <center><small>Use the Jumpto buttons to launch Google Colab per Sessions' cell</small></center>
 
@@ -360,7 +364,7 @@ These models can be applied on:
 >  <sup>[Back to Top](#ibm-skills-ai-colab-sessions) | [To Acknowledgements](#acknowledgements)</sup>
 ---
 
-### <ins>OpenAI Text Completion | ChatBot `Session 4`</ins>
+### <ins> Embeddable AI | ChatBot & Text Completion `Session 4`</ins>
 
 These sessions needs to be run on <sub>[![GoogleColab](https://img.shields.io/badge/Google-CoLab-0e80c1?logo=googlecolab&logoColor=d39816)](https://colab.research.google.com/ "Free Compute Credits across CPU/GPU")</sub> if local system compute are not configured or specified for GPU loads.
 
@@ -374,8 +378,7 @@ These sessions needs to be run on <sub>[![GoogleColab](https://img.shields.io/ba
 >   - Implement IBM Watson Text-to-Speech functionality to allow the chatbot to communicate with users through voice output.<br><br>
 
 ### 1️⃣ <ins>OpenAI ChatBot on Notebook: `Session 4.1`</ins>
-
-[![Session 4.1 OpenAI Chatbot Notebook](https://img.shields.io/badge/Session4.1%20OpenAI%20ChatBot-Jumpto-5c5c5c?labelColor=3499cd&logo=googlecolab&logoColor=d39816)](https://colab.research.google.com/github/iPoetDev/ibm-skills-ai-colab-sessions/blob/main/notebooks-labs/Session4_OpenAI_Text_Completion.ipynb#scrollTo=-MuVZBIxWOzJ "Open Session4_OpenAI_Text_Completion.ipynbon colab.google.com")
+<sub> [![Session 4.1🅰️ OpenAI Chatbot Notebook](https://img.shields.io/badge/Session4.1🅰️%20OpenAI%20Text_Completions-Jumpto-5c5c5c?labelColor=3499cd&logo=googlecolab&logoColor=d39816)](https://colab.research.google.com/github/iPoetDev/ibm-skills-ai-colab-sessions/blob/main/notebooks-labs/Session4_OpenAI_Text_Completion.ipynb "Open Session4_OpenAI_Text_Completion.ipynbon colab.google.com")</sub> ported to <sub> [![Session 4.1🅱️ Anthropic Chatbot Notebook](https://img.shields.io/badge/Session4.1🅱️%20Anthropic%20Text_Completions-Jumpto-5c5c5c?labelColor=3499cd&logo=googlecolab&logoColor=d39816)](https://colab.research.google.com/github/iPoetDev/ibm-skills-ai-colab-sessions/blob/main/notebooks-labs/Session4_Anthropic_Text_Completion.ipynb "Open Session4_OpenAI_Text_Completion.ipynbon colab.google.com")</sub> (Issue #8).
 
 > OpenAI is a leading AI research company that offers powerful models for text completion and chatbot development.
 >> Its GPT models excel at understanding and generating human-like text, enabling applications like:
@@ -383,9 +386,17 @@ These sessions needs to be run on <sub>[![GoogleColab](https://img.shields.io/ba
 >> - **Chatbots**: Building interactive conversational agents that can engage in natural, dynamic dialogue with users<br><br>
 
 - OpenAI provides APIs and tools for easy integration of these capabilities into various platforms and applications.<br>
-  - [x] OpenAI API registration/login and Freeemium Subscription 💳🔐
+  - [x] LLM Provider registration/login and Freeemium Subscription 💳🔐
 
 [![OpenAI](https://img.shields.io/badge/OpenAI-Website-412991?logo=openai&logoColor=white)](https://openai.com) <sup>|</sup> [![OpenAI](https://img.shields.io/badge/OpenAI_API-Platform_Keys_(💳🔐)-412991?logo=openai&logoColor=white)](https://platform.openai.com/api-keys) <sup>|</sup> [![OpenAI API](https://img.shields.io/badge/OpenAI_API-Reference-412991?logo=openai&logoColor=white)](https://platform.openai.com/docs/api-reference) <sup>|</sup> [![GitHub](https://img.shields.io/badge/OpenAI-GitHub-181717?logo=github&logoColor=white)](https://github.com/openai) <sup>|</sup> [![PyPI](https://img.shields.io/badge/OpenAI-PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/openai/)
+
+- Issue: [#7 | 🐛 [Bug]: External | OpenAI bug with API Key generation](https://github.com/iPoetDev/ibm-skills-ai-colab-sessions/issues/7)
+  - ➡️➡️ Switch to another LLM Provider/Platform: [Anthropic Claude Sonnet 3.5]()
+- Request: [#8](): Update Session4 Notebook or duplicate/mirror OpenAi variant.  
+
+[![Anthropic Claude](https://img.shields.io/badge/Anthropic-Claude-000000?logo=anthropic&logoColor=white)](https://www.anthropic.com) <sup>|</sup> [![Anthropic Claude API](https://img.shields.io/badge/Anthropic_API-Platform_Keys_(💳🔐)-000000?logo=anthropic&logoColor=white)](https://console.anthropic.com/api-keys) <sup>|</sup> [![Anthropic API Reference](https://img.shields.io/badge/Anthropic_API-Reference-000000?logo=anthropic&logoColor=white)](https://console.anthropic.com/docs/api-reference) <sup>|</sup> [![GitHub](https://img.shields.io/badge/Anthropic-GitHub-181717?logo=github&logoColor=white)](https://github.com/anthropic) <sup>|</sup> [![PyPI](https://img.shields.io/badge/Anthropic-PyPI-3775A9?logo=pypi&logoColor=white)](https://pypi.org/project/anthropic/)
+
+https://docs.anthropic.com/en/api/client-sdks
 
 ### 2️⃣ <ins>Embedded AI - IBM Watson Speach to Text (STT) / Text-Speech (TTS): `Session 4.2`</ins>
 
