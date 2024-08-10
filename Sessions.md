@@ -16,7 +16,7 @@
 
 - `Session 1`: Python Fundamentals (for beginners and new to Python). **(2024.06.19)**
   - [<ins>`🖇️ Session1.ipnyb`</ins>](./notebooks-labs/Session1.ipynb "Folder: notebooks-labs: Session 1: Python Fundamentals"): <br>
-    **CoLab** Run -> [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10ZTbzzrTTrYpzu4xFcN88gV_Rai4Y-Rj?usp=sharing "Session 1: Google Colab: Session2_Regression_Clustering_Classification_Recommender.ipnyb"):
+    **CoLab** Run -> <sub>[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10ZTbzzrTTrYpzu4xFcN88gV_Rai4Y-Rj?usp=sharing "Session 1: Google Colab: Session2_Regression_Clustering_Classification_Recommender.ipnyb")</sub>:
     - NB: *Was familar with Python Fundamentals from previous software engineering efforts and courses.*
       - i) Lists, Tuples, and Dictionaries
       - ii) Basic Python Operations
@@ -28,14 +28,14 @@
       2.   Practice Katas, for example, [Code Wars](https://www.codewars.com/), [CodeSignal](https://learn.codesignal.com/)
 - `Session 2`: Machine Learning Models and Methodologies Fundamentals. **(2024.07.02)**
   - [<ins>`🖇️ Session2.ipnyb`</ins>](./notebooks-labs/Session2.ipynb "Folder: notebooks-labs: Session 2: Machine Learning Fundamentals") <br>
-      **CoLab** Run -> [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FW5-OGD2jegulfkF8afRptkZ3cEakL--?usp=sharing "Session 2: Google Colab: Session2_Regression_Clustering_Classification_Recommender.ipnyb"):
+      **CoLab** Run -> <sub>[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FW5-OGD2jegulfkF8afRptkZ3cEakL--?usp=sharing "Session 2: Google Colab: Session2_Regression_Clustering_Classification_Recommender.ipnyb")</sub>:
     - i) Regressions
     - ii) Classifications 
     - iii) Clustering 
     - iv) Recommender Systems 
 - `Session 3`: Generative AI Lab **(2024.07.16)** 
   - [<ins>`🖇️  Session3_VAE.ipnyb`</ins>](./notebooks-labs/Session3_VAE.ipynb "Folder: notebooks-labs: Session 3: Assumed GitHub as Host, Use Google Colabl as Host"): <br>
-    **CoLab** Run -> [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eD7pRKmhVFl0nfwzsoIy9RTtoPMVkZPW?usp=sharing "Session 3: Google Colab: Session3_VAE.ipynb")
+    **CoLab** Run -> <sub>[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eD7pRKmhVFl0nfwzsoIy9RTtoPMVkZPW?usp=sharing "Session 3: Google Colab: Session3_VAE.ipynb")</sub>
     - i) Load Datasets
     - ii) Encoders
     - iii) VAE Sampling
@@ -46,7 +46,7 @@
     - viii) Display Images (func) 
     <br><br>
   - [<ins>`🖇️ Session3_Transformers.ipnyb`</ins>](./notebooks-labs/Session3_FineTuning_BERTandGPT.ipynb "Folder: notebooks-labs: Session 3: Assumed GitHub as Host, Use Google Colabl as Host"): <br> 
-    **CoLab** Run -> [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19YcHhGy__BdZp3iDGeiytA0ZfCrfiPCY?usp=sharing "Session 3: Google Colab: Session3_VAE.ipynb")
+    **CoLab** Run -> <sub>[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19YcHhGy__BdZp3iDGeiytA0ZfCrfiPCY?usp=sharing "Session 3: Google Colab: Session3_VAE.ipynb")</sub>
     - i) Setups/Imports
     - ii) Load Datasets
     - iii) Load Transformer Model (BERT)
@@ -55,9 +55,9 @@
     - vi) Model Evaluation
     - vii) Predictions
     <br><br>
-- `Session 4`: OpenAI Chatout **(2024.07.30)** 
-  - [<ins>`🖇️  Session4 OpenAI Text Completion.ipynb`</ins>](./notebooks-labs/Session4_OpenAI_Text_Completion.ipynb "Folder: notebooks-labs: Session 4: Assumed GitHub as Host, Use Google Colabl as Host"): <br>
-    **CoLab** Run -> [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TZekNH-QvntOgj0ujc7PMQ27s4PQ0-qi#scrollTo=--HsA5LXTQ_y "Session 4: Google Colab: OpenAI Text Completion.ipynb")
+- `Session 4`: ~~OpenAI~~ Anthropic Text Completions **(2024.07.30)** 
+  - [<ins>`🖇️  Session4 Anthropic Text Completion.ipynb`</ins>](./notebooks-labs/Session4_Anthropic_Text_Completion.ipynb "Folder: notebooks-labs: Session 4: Assumed GitHub as Host, Use Google Colabl as Host"): <br>
+    **CoLab** Run -> <sub>[![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TZekNH-QvntOgj0ujc7PMQ27s4PQ0-qi#scrollTo=--HsA5LXTQ_y "Session 4: Google Colab: OpenAI Text Completion.ipynb")</sub>, Anthropic, ~~not OpenAI~~
     - i) Install
     - ii) Intiatiate API Key
     - iii) Model Functions
